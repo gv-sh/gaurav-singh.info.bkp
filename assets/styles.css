@@ -1,0 +1,168 @@
+@import url('base.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    font-family: var(--font-family-serif);
+    font-weight: normal;
+    text-decoration: none;
+    color: var(--color-black);
+    text-transform: lowercase;
+}
+
+body {
+    max-width: 560px;
+    margin: 24px;
+}
+
+a {
+    color: maroon;
+    transition: background-color 0.5s ease-in-out;
+}
+
+a:hover {
+    background-color: Seashell;
+    transition: background-color 0.5s ease-in-out;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid var(--color-grey);
+    margin: 1em 0;
+}
+
+h2 {
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    font-size: 36px;
+}
+
+ul {
+    margin-left: 2em;
+    list-style-type: square;
+}
+
+ol {
+    margin-left: 2em;
+}
+
+h1, h2, h4, h5, h6, p, pre {
+    margin-bottom: 1em;
+}
+
+ul,ol {
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    padding-bottom: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid var(--color-grey);
+}
+
+#credit {
+    text-align: right;
+}
+
+img {
+    width: 100%;
+}
+
+@media print {
+    /* Hide title and footer on print */
+    .title,
+    .footer {
+        display: none !important;
+    }
+
+    /* Configure the page size and margin */
+    @page {
+        size: A4; /* or you can use 'letter' or 'auto' */
+        margin: 20mm; /* Add some margin for better readability */
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        font-size: 11pt; /* Adjust text size for printing */
+    }
+
+    /* Styling the body for print */
+    body {
+        margin: 20mm; /* Add custom margins inside the page */
+        width: 100%;
+    }
+
+    /* Main content area */
+    #content {
+        width: 100%;
+        zoom: 0.7; /* Adjust zoom for better fit, but be cautious as it may affect layout */
+    }
+
+    /* Force page breaks where necessary */
+    .page-break {
+        page-break-before: always; /* Start new page */
+    }
+
+    .page-break::after {
+        display: block;
+        content: "";
+        height: 20mm;
+    }
+
+    /* Avoid splitting large sections across pages */
+    .no-break {
+        page-break-inside: avoid;
+    }
+
+    /* Optional: Adjust table layout for printing */
+    table {
+        page-break-inside: auto;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    /* Prevent images from being split between pages */
+    img {
+        page-break-inside: avoid;
+    }
+
+    #credit {
+        display: block;
+    }
+}
+
+iframe.responsive-iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    margin-bottom: 0.25em;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    margin-bottom: 0.25em;
+}
+
+blockquote {
+    border-left: 1px solid var(--color-grey);
+    padding-left: 1em;
+}
