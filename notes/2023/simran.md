@@ -2,7 +2,7 @@
 title: Simran Singh, Student, 2023
 date: 2023-11-06
 layout: base.njk
-permalink: /students/simran-singh/
+permalink: /2023/simran-singh/
 --- 
 
 Simran is a gifted user experience designer, distinguished by her talent for making complex ideas accessible and easy to understand. Her quest for learning and taking on new challenges is so heartening to find. Known for her clarity of thought and commitment, Simran's work has been showcased in notable events like Reclaiming AI Futures (2021) and IndiaHCI (2019), reflecting her strong abilities, particularly in collaborative settings.

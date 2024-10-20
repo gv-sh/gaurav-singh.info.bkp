@@ -2,7 +2,7 @@
 title: Making with Algorithms, 2019
 date: 2019-11-28
 layout: base.njk
-permalink: /journal/making-with-algorithms/
+permalink: /2019/making-with-algorithms/
 --- 
 
 This note features student work.

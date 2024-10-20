@@ -160,7 +160,7 @@ _(Performance)_ Heubeush L, Unger AS, Nagaraj N, G Singh. Together with Touch. 2
 2010: Participation — Gravitas 2010, VIT University, Vellore
 
 ### Recognition
-2024: STEM Professional ICT - Gold achievement, Griffith Sciences\
+2024: STEM Prof. ICT - Gold achievement, Griffith Sciences\
 2023: Grant, Adobe Fund for Design 2023\
 2021: Grant, Adobe Fund for Design 2021\
 2017: Design Champion, Topcoder Open 2017 India Regionals\

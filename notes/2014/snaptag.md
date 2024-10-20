@@ -2,7 +2,7 @@
 layout: base.njk
 title: "SnapTag, Paper, 2014"
 date: 2014-12-07
-permalink: /research/snaptag/
+permalink: /2014/snaptag/
 ---
 Research shows that inherent psychological barriers linked to memory loss shape ageing people's self-efficacy to perform tasks of everyday living. In this paper we present SnapTag, a design concept for a mobile application that leverages situated memory to enhance self-efficacy in senior citizens for their wellbeing. SnapTag aims to trigger a recollection of situated memory in senior citizens through micro-interactions. We speculate that such triggering encourages senior citizens to approach their daily activities with a sense of efficacy and confidence. We expect that our exploration to point the interaction design and HCI communities to further research and develop to explore the situated aspects of memory recall while designing for senior wellbeing.
 

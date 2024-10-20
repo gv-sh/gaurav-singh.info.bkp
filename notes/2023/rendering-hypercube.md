@@ -2,7 +2,7 @@
 title: "Rendering a hypercube, 2023"
 date: 2023-09-15
 layout: base.njk
-permalink: /journal/rendering-hypercube/
+permalink: /2023/rendering-hypercube/
 --- 
 
 ![Hypercube](/assets/sketches/sketch_hypercube.gif)
