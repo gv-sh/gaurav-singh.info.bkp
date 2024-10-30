@@ -34,7 +34,7 @@
                 <a href="/tagged/worked-at/" data-parent="about" class="child hidden">Career log</a>
                 <a href="/tagged/education/" data-parent="about" class="child hidden">Education</a>
                 <a href="#" id="work" data-show-children>Work</a>
-                <a href="/tagged/teaching/" data-parent="work" class="child hidden">Teaching</a>
+                <a href="/tagged/taught/" data-parent="work" class="child hidden">Teaching</a>
                 <a href="/tagged/projects/" data-parent="work" class="child hidden">Projects</a>
                 <a href="/tagged/publications/" data-parent="work" class="child hidden">Publications</a>
                 <a href="#" id="notebook" data-show-children>Notebook</a>
@@ -63,7 +63,7 @@
             <article>
                 
                 <section class="content">
-                    <h1>Hci</h1>
+                    <h1>HCI</h1>
 
 
     
@@ -77,8 +77,8 @@
 
 <div class="collection-item">
     <div class="text">
-        <a href="/notebook/students/simran/">Simran Singh</a><br/>
-        Simran is a gifted user experience designer, distinguished by her talent for... 
+        <a href="/notebook/publications/reride-interact17/">ReRide: A Platform to Explore Interaction with...</a><br/>
+        The motorcycle could soon be the new frontier for the exploration of human... 
     </div>
     
 </div>
@@ -88,80 +88,8 @@
 
 <div class="collection-item">
     <div class="text">
-        <a href="/notebook/students/pranjal/">Pranjal Jain</a><br/>
-        Pranjal Jain is a proactive and highly driven design researcher, who I first... 
-    </div>
-    
-</div>
-
-
-
-
-<div class="collection-item">
-    <div class="text">
-        <a href="/notebook/projects/reride/">ReRide: A Bike Area Network for Embodied...</a><br/>
-        2017-2019, 
-This project is continuation of original ReRide design experiment started by... 
-    </div>
-    
-    <div class="image">
-        <img src="/assets/images/2019/reride-new.jpg">
-    </div>
-    
-</div>
-
-
-
-
-<div class="collection-item">
-    <div class="text">
-        <a href="/notebook/teaching/2019/pdtp/">Programming as design tool for prototyping</a><br/>
-        This was a repitition of a course earlier provided in 2017.
- 
-    </div>
-    
-</div>
-
-
-
-
-<div class="collection-item">
-    <div class="text">
-        <a href="/notebook/publications/reride-tei19/">ReRide: A Bike Area Network for Embodied...</a><br/>
-        Motorbike commuting is the new frontier for exploring digital technology where... 
-    </div>
-    
-</div>
-
-
-
-
-<div class="collection-item">
-    <div class="text">
-        <a href="/notebook/teaching/2018/ixd-beyond-screens/">Interaction design — beyond screens</a><br/>
-        2018, Co-facilitated with Dr.Naveen Bagalkot. This course focused on pushing the... 
-    </div>
-    
-</div>
-
-
-
-
-<div class="collection-item">
-    <div class="text">
-        <a href="/notebook/teaching/2018/future-of-ixd/">Future of interaction design</a><br/>
-        2018, In this course, students explored the future of interaction design beyond the... 
-    </div>
-    
-</div>
-
-
-
-
-<div class="collection-item">
-    <div class="text">
-        <a href="/notebook/teaching/2017/pdtp/">Programming as design tool for prototyping</a><br/>
-        2017, Co-facilitated with Dr.Venkat Chilukuri. Programming is most often assumed to be... 
+        <a href="/notebook/publications/snaptag/">SnapTag: Leveraging Situated Memory to enhance...</a><br/>
+        Research shows that inherent psychological barriers linked to memory loss shape... 
     </div>
     
 </div>
@@ -206,6 +134,46 @@ This project is continuation of original ReRide design experiment started by...
                     parentLink.classList.add('expanded');
                     // Show all child items with the matching data-parent attribute
                     document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                        child.classList.remove('hidden');
+                    });
+                }
+            });
+            console.log("Restored expanded state from localStorage:", expandedItems); // Debugging line
+        }
+
+        // Set up event listeners for each parent link
+        document.querySelectorAll('a[data-show-children]').forEach(parentLink => {
+            parentLink.addEventListener('click', function(event) {
+                // Prevent default action to avoid navigation
+                event.preventDefault();
+
+                // Toggle the expanded class on the parent
+                parentLink.classList.toggle('expanded');
+
+                // Get the ID of the parent to match with data-parent attributes
+                const parentId = parentLink.id;
+                const isExpanded = parentLink.classList.contains('expanded');
+
+                // Update localStorage based on the current expanded state
+                updateExpandedState(parentId, isExpanded);
+
+                // Toggle visibility for all child items with a matching data-parent
+                document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                    child.classList.toggle('hidden', !isExpanded);
+                });
+
+                // Navigate to the link after updating the state
+                window.location.href = parentLink.href;
+            });
+        });
+
+        // Restore the expanded state on page load
+        document.addEventListener('DOMContentLoaded', (event) => {
+            restoreExpandedState();
+        });
+    </script>
+</html>
+nt="${parentId}"]`).forEach(child => {
                         child.classList.remove('hidden');
                     });
                 }

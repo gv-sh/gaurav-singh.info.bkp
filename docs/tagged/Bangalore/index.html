@@ -34,7 +34,7 @@
                 <a href="/tagged/worked-at/" data-parent="about" class="child hidden">Career log</a>
                 <a href="/tagged/education/" data-parent="about" class="child hidden">Education</a>
                 <a href="#" id="work" data-show-children>Work</a>
-                <a href="/tagged/teaching/" data-parent="work" class="child hidden">Teaching</a>
+                <a href="/tagged/taught/" data-parent="work" class="child hidden">Teaching</a>
                 <a href="/tagged/projects/" data-parent="work" class="child hidden">Projects</a>
                 <a href="/tagged/publications/" data-parent="work" class="child hidden">Publications</a>
                 <a href="#" id="notebook" data-show-children>Notebook</a>
@@ -77,21 +77,9 @@
 
 <div class="collection-item">
     <div class="text">
-        <a href="/notebook/mentors/naveen-bagalkot/">Dr. Naveen Bagalkot</a><br/>
-        Naveen is a design researcher, educator, and facilitator broadly working at the... 
-    </div>
-    
-</div>
-
-
-
-
-<div class="collection-item">
-    <div class="text">
-        <a href="/notebook/yearly-notes/2013-first-year-at-srishti/">2013 — First year at Srishti</a><br/>
-        
-After the first day at Srishti&#39;s old campus
-2013 was a year of new experiences.... 
+        <a href="/notebook/worked-at/art-in-transit/">Research assistant, Art in Transit</a><br/>
+        2016, Supervisors: Mr.Abhiyan Humane, Ms.Arzu Mistry
+I was part of the Art in Transit... 
     </div>
     
 </div>
@@ -166,6 +154,16 @@ After the first day at Srishti&#39;s old campus
 
                 // Navigate to the link after updating the state
                 window.location.href = parentLink.href;
+            });
+        });
+
+        // Restore the expanded state on page load
+        document.addEventListener('DOMContentLoaded', (event) => {
+            restoreExpandedState();
+        });
+    </script>
+</html>
+       window.location.href = parentLink.href;
             });
         });
 
