@@ -1,0 +1,19 @@
+---
+title: SVideo
+date: 2020-04-03
+layout: base.njk
+image: /assets/images/2019/reride.jpg
+tags: ["projects", "raspberry-pi", "synchronized-playback", "svideo-api", "video-installations", "creative-technology", "new-media-art", "debanshu-bhaumik", "single-board-computers", "video-grid-display", "multi-screen-setup", "tcp-ip-communication", "master-slave-configuration", "command-line-playback", "video-syncing", "art-installations", "digital-displays", "network-video-streaming", "video-filters", "video-cropping", "media-synchronization", "open-source-project", "video-display-configuration", "vlc-player", "large-scale-display", "collaborative-installation", "media-control", "socket-programming", "api-development", "real-time-effects", "digital-prototyping"]
+--- 
+
+<img src="/assets/images/2019/reride.jpg"/>
+
+This project was done in collaboration with [Debanshu Bhaumik](https://www.debanshubhaumik.com), a Creative technologist & New media art practitioner.
+
+Popularity and power of single board computers like Raspberry Pi have made it possible not just to promote the teaching of basic computer science but also to prototype and in fact, to be even used by artists in their installations who often have particular requirements to be met. Boards like Raspberry Pi are quite capable and in many cases can substitute full PCs for such installations. Playing single/multiple videos across multiple (and often large) displays require specialized hardware splitters and devices to read in video from a computer and then sent out to multiple devices in a synchronised manner. However, these devices are expensive and require an expert who has the know-how of using it. This small but meaningful realization by Debanshu eventually led us to build a simple API to facilitate synced video playback across multiple Raspberry Pi boards.
+
+We have currently built a basic prototype of the implementation, and the following part of this post explains the working of it in detail. On one side, the boards are connected in a master-slave combination where the master computer controls the playback across the rest of the boards, which works in slave mode, each of the boards can be connected to any display device. The display devices may be placed in multiple configurations — from the standard grid to anything desired. The current implementation of the API does not do anything to the video file and uses pre-stored video files on the respective boards to playback in a synchronized manner. The current method can also extend to run a video file from the network or apply effects like cropping, video filters in near real time.
+
+The boards communicate over standard TCP/IP socket and get paired by a single handshake and tell the master computer whenever they are ready to start playback. Once all the slave computer responds with the available status, the master computer schedules or instructs all the slave computers to initiate the video playback. VLC player currently holds the video playback through the command line, which also removes any other screen to be displayed on the actual display, which otherwise is not relevant to the overall aesthetics/experience of the installation.
+
+SVideo can be freely used from [https://github.com/gv-sh/svideo](https://github.com/gv-sh/svideo)

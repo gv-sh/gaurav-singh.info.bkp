@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova_regular_macroman/proximanova-regular-webfont.woff2') format('woff2'),
+         url('proximanova_regular_macroman/proximanova-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova_bold_macroman/proximanova-bold-webfont.woff2') format('woff2'),
+         url('proximanova_bold_macroman/proximanova-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Reset some default styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* Set a basic, readable font and line height */
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin: 0.5em 0 0.5em;
+    font-weight: 400;
+}
+
+h1 { font-size: 1.8em; margin-top: 0em; }
+h2 { font-size: 1.5em; margin-top: 1.5em;}
+h3 { font-size: 1.25em; margin-top: 1.25em;}
+h4 { font-size: 1.125em; margin-top: 1.125em;}
+h5 { font-size: 1.075em; margin-top: 1.075em;}
+h6 { font-size: 1em; margin-top: 1em;}
+
+/* Paragraphs */
+p {
+    margin: 0 0 1em;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #ddd;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #000;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+ul, ol {
+    margin: 0 0 1em 1.5em;
+    padding: 0;
+    list-style-type: square;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 1em 1.5em;
+    padding-left: 1em;
+    border-left: 3px solid #ddd;
+    color: #666;
+    font-style: italic;
+}
+
+/* Code blocks */
+pre, code {
+    background: #f4f4f4;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+pre {
+    padding: 1em;
+    overflow-x: auto;
+    margin-bottom: 1em;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+}
+
+th {
+    background: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Forms */
+input, textarea, select, button {
+    font: inherit;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+button {
+    background: #007acc;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005ea1;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    width: 700px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    /* border: 1px solid #ddd; */
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 0.75em 1em;
+}
+
+header > *, footer > * {
+    /* border-bottom: 1px solid #000; */
+    /* text-transform: uppercase; */
+    /* font-size: 14px; */
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+nav a {
+    border-bottom: none !important;
+}
+
+article {
+    padding: 0px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    margin-bottom: 0.5em;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    margin-bottom: 0.5em;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin-bottom: 0.5em;
+}
+
+.collection-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+.collection-item img {
+    aspect-ratio: 6 / 4;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+}
+  
+.collection-item p {
+    margin-bottom: 0;
+}
+
+.collection-item {
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
+
+.title {
+    margin-bottom: 3em;
+}

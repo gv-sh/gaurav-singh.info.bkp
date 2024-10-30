@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+                onload="renderMathInElement(document.body, {
+                            delimiters: [
+                                {left: '$$', right: '$$', display: true},
+                                {left: '$', right: '$', display: false},
+                            ],
+                            throwOnError : false
+                        });">
+        </script>
+        <title>Faculty member, Srishti-Manipal</title>
+    </head>
+    <body>
+        <main>
+            <nav>
+                <a href="/" id="hello">Hello</a>
+                <a href="#" id="about" data-show-children>About me</a>
+                <a href="/notebook/background/" data-parent="about" class="child hidden">Background</a>
+                <a href="/tagged/worked-at/" data-parent="about" class="child hidden">Career log</a>
+                <a href="/tagged/education/" data-parent="about" class="child hidden">Education</a>
+                <a href="#" id="work" data-show-children>Work</a>
+                <a href="/tagged/teaching/" data-parent="work" class="child hidden">Teaching</a>
+                <a href="/tagged/projects/" data-parent="work" class="child hidden">Projects</a>
+                <a href="/tagged/publications/" data-parent="work" class="child hidden">Publications</a>
+                <a href="#" id="notebook" data-show-children>Notebook</a>
+
+                <a href="/tagged/exchanges/" data-parent="notebook" class="child hidden">Exchanges</a>
+                <a href="/tagged/mathscapes/" data-parent="notebook" class="child hidden">Mathscapes</a>
+                <a href="/tagged/reride/" data-parent="notebook" class="child hidden">ReRide</a>
+                <a href="/tagged/study/" data-parent="notebook" class="child hidden">Study</a>
+                <a href="/tagged/travel/" data-parent="notebook" class="child hidden">Travel</a>
+                <a href="/tagged/triangle/" data-parent="notebook" class="child hidden">Triangle</a>
+                <a href="/tagged/writing/" data-parent="notebook" class="child hidden">Writing</a>
+                <a href="/tagged/yearly-notes/" data-parent="notebook" class="child hidden">Yearly notes</a>
+                <a href="/tagged/unorganised/" data-parent="notebook" class="child hidden">Unorganised</a>
+
+                <a href="#" id="community" data-show-children>Community</a>
+                <a href="/tagged/mentor/" data-parent="community" class="child hidden">Mentors</a>
+                <a href="/tagged/peer/" data-parent="community" class="child hidden">Peers</a>
+                <a href="/tagged/student/" data-parent="community" class="child hidden">Students</a>
+                <a href="/tagged/store/" id="store">Store</a>
+
+                <a href="#" id="connect" data-show-children>Connect</a>
+                <a href="mailto:hi@gvsh.cc" data-parent="connect" class="child hidden">Email</a>
+                <a href="https://www.linkedin.com/in/gv-sh/" data-parent="connect" class="child hidden">LinkedIn</a>
+                <a href="https://instagram.com/themakingofnow" data-parent="connect" class="child hidden">Instagram</a>
+            </nav>
+            <article>
+                <section class="title">
+                    <h1>Faculty member, Srishti-Manipal</h1>
+                </section>
+                <section class="content">
+                    <p>Taught undergraduate and graduate courses in programming, mathematics, and human-computer interaction. At Srishti Manipal Institute in India, I facilitated the Experimental Mathematics Lab and was Head of Studies for the M.Des. - Design Computation program. Supervised undergraduate thesis and papers accepted at international conferences such as CHI, OzCHI, and IndiaHCI.</p>
+<p>I worked on the design and programming for the posture-sensing module under the supervision of <a href="/mentors/naveen-bagalkot/">Dr.Naveen Bagalkot</a> (Srishti) and Dr.Tomas Sokoler (ITU Copenhagen). Our efforts culminated in two research papers, and our work was part of INTERACT 2017 at IIT Bombay, India and TEI 2019 at Arizona State University, USA.</p>
+<p><a href="/teaching/">List of courses/workshops taught at Srishti</a></p>
+<p>More information available on <a href="mailto:hi@gvsh.cc">request</a>.</p>
+
+                </section>
+                <section class="footer">
+                    <p>01.07.2017</p>
+                    <p>Tagged: <a href="/tagged/worked-at">worked-at</a>, <a href="/tagged/srishti-manipal">srishti-manipal</a>, <a href="/tagged/faculty-member">faculty-member</a>, <a href="/tagged/undergraduate-courses">undergraduate-courses</a>, <a href="/tagged/graduate-courses">graduate-courses</a>, <a href="/tagged/programming">programming</a>, <a href="/tagged/mathematics">mathematics</a>, <a href="/tagged/human-computer-interaction">human-computer-interaction</a>, <a href="/tagged/experimental-mathematics-lab">experimental-mathematics-lab</a>, <a href="/tagged/design-computation">design-computation</a>, <a href="/tagged/research-supervision">research-supervision</a>, <a href="/tagged/research-papers">research-papers</a>, <a href="/tagged/international-conferences">international-conferences</a>, <a href="/tagged/posture-sensing">posture-sensing</a></p>
+                </section>
+            </article>
+        </main>
+    </body>
+    <script>
+        // Function to update localStorage with the current state of expanded items
+        function updateExpandedState(parentId, isExpanded) {
+            let expandedItems = JSON.parse(localStorage.getItem('expandedItems')) || [];
+
+            if (isExpanded) {
+                // Add to expandedItems if not already present
+                if (!expandedItems.includes(parentId)) {
+                    expandedItems.push(parentId);
+                }
+            } else {
+                // Remove from expandedItems
+                expandedItems = expandedItems.filter(id => id !== parentId);
+            }
+
+            // Update localStorage with the modified array
+            localStorage.setItem('expandedItems', JSON.stringify(expandedItems));
+            console.log(`Updated expanded state for ${parentId}:`, expandedItems); // Debugging line
+        }
+
+        // Function to restore the expanded state from localStorage on page load
+        function restoreExpandedState() {
+            const expandedItems = JSON.parse(localStorage.getItem('expandedItems')) || [];
+
+            expandedItems.forEach(parentId => {
+                const parentLink = document.getElementById(parentId);
+                if (parentLink) {
+                    parentLink.classList.add('expanded');
+                    // Show all child items with the matching data-parent attribute
+                    document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                        child.classList.remove('hidden');
+                    });
+                }
+            });
+            console.log("Restored expanded state from localStorage:", expandedItems); // Debugging line
+        }
+
+        // Set up event listeners for each parent link
+        document.querySelectorAll('a[data-show-children]').forEach(parentLink => {
+            parentLink.addEventListener('click', function(event) {
+                // Prevent default action to avoid navigation
+                event.preventDefault();
+
+                // Toggle the expanded class on the parent
+                parentLink.classList.toggle('expanded');
+
+                // Get the ID of the parent to match with data-parent attributes
+                const parentId = parentLink.id;
+                const isExpanded = parentLink.classList.contains('expanded');
+
+                // Update localStorage based on the current expanded state
+                updateExpandedState(parentId, isExpanded);
+
+                // Toggle visibility for all child items with a matching data-parent
+                document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                    child.classList.toggle('hidden', !isExpanded);
+                });
+
+                // Navigate to the link after updating the state
+                window.location.href = parentLink.href;
+            });
+        });
+
+        // Restore the expanded state on page load
+        document.addEventListener('DOMContentLoaded', (event) => {
+            restoreExpandedState();
+        });
+    </script>
+</html>

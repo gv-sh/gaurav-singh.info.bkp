@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+                onload="renderMathInElement(document.body, {
+                            delimiters: [
+                                {left: '$$', right: '$$', display: true},
+                                {left: '$', right: '$', display: false},
+                            ],
+                            throwOnError : false
+                        });">
+        </script>
+        <title>SVideo</title>
+    </head>
+    <body>
+        <main>
+            <nav>
+                <a href="/" id="hello">Hello</a>
+                <a href="#" id="about" data-show-children>About me</a>
+                <a href="/notebook/background/" data-parent="about" class="child hidden">Background</a>
+                <a href="/tagged/worked-at/" data-parent="about" class="child hidden">Career log</a>
+                <a href="/tagged/education/" data-parent="about" class="child hidden">Education</a>
+                <a href="#" id="work" data-show-children>Work</a>
+                <a href="/tagged/teaching/" data-parent="work" class="child hidden">Teaching</a>
+                <a href="/tagged/projects/" data-parent="work" class="child hidden">Projects</a>
+                <a href="/tagged/publications/" data-parent="work" class="child hidden">Publications</a>
+                <a href="#" id="notebook" data-show-children>Notebook</a>
+
+                <a href="/tagged/exchanges/" data-parent="notebook" class="child hidden">Exchanges</a>
+                <a href="/tagged/mathscapes/" data-parent="notebook" class="child hidden">Mathscapes</a>
+                <a href="/tagged/reride/" data-parent="notebook" class="child hidden">ReRide</a>
+                <a href="/tagged/study/" data-parent="notebook" class="child hidden">Study</a>
+                <a href="/tagged/travel/" data-parent="notebook" class="child hidden">Travel</a>
+                <a href="/tagged/triangle/" data-parent="notebook" class="child hidden">Triangle</a>
+                <a href="/tagged/writing/" data-parent="notebook" class="child hidden">Writing</a>
+                <a href="/tagged/yearly-notes/" data-parent="notebook" class="child hidden">Yearly notes</a>
+                <a href="/tagged/unorganised/" data-parent="notebook" class="child hidden">Unorganised</a>
+
+                <a href="#" id="community" data-show-children>Community</a>
+                <a href="/tagged/mentor/" data-parent="community" class="child hidden">Mentors</a>
+                <a href="/tagged/peer/" data-parent="community" class="child hidden">Peers</a>
+                <a href="/tagged/student/" data-parent="community" class="child hidden">Students</a>
+                <a href="/tagged/store/" id="store">Store</a>
+
+                <a href="#" id="connect" data-show-children>Connect</a>
+                <a href="mailto:hi@gvsh.cc" data-parent="connect" class="child hidden">Email</a>
+                <a href="https://www.linkedin.com/in/gv-sh/" data-parent="connect" class="child hidden">LinkedIn</a>
+                <a href="https://instagram.com/themakingofnow" data-parent="connect" class="child hidden">Instagram</a>
+            </nav>
+            <article>
+                <section class="title">
+                    <h1>SVideo</h1>
+                </section>
+                <section class="content">
+                    <img src="/assets/images/2019/reride.jpg"/>
+<p>This project was done in collaboration with <a href="https://www.debanshubhaumik.com">Debanshu Bhaumik</a>, a Creative technologist &amp; New media art practitioner.</p>
+<p>Popularity and power of single board computers like Raspberry Pi have made it possible not just to promote the teaching of basic computer science but also to prototype and in fact, to be even used by artists in their installations who often have particular requirements to be met. Boards like Raspberry Pi are quite capable and in many cases can substitute full PCs for such installations. Playing single/multiple videos across multiple (and often large) displays require specialized hardware splitters and devices to read in video from a computer and then sent out to multiple devices in a synchronised manner. However, these devices are expensive and require an expert who has the know-how of using it. This small but meaningful realization by Debanshu eventually led us to build a simple API to facilitate synced video playback across multiple Raspberry Pi boards.</p>
+<p>We have currently built a basic prototype of the implementation, and the following part of this post explains the working of it in detail. On one side, the boards are connected in a master-slave combination where the master computer controls the playback across the rest of the boards, which works in slave mode, each of the boards can be connected to any display device. The display devices may be placed in multiple configurations — from the standard grid to anything desired. The current implementation of the API does not do anything to the video file and uses pre-stored video files on the respective boards to playback in a synchronized manner. The current method can also extend to run a video file from the network or apply effects like cropping, video filters in near real time.</p>
+<p>The boards communicate over standard TCP/IP socket and get paired by a single handshake and tell the master computer whenever they are ready to start playback. Once all the slave computer responds with the available status, the master computer schedules or instructs all the slave computers to initiate the video playback. VLC player currently holds the video playback through the command line, which also removes any other screen to be displayed on the actual display, which otherwise is not relevant to the overall aesthetics/experience of the installation.</p>
+<p>SVideo can be freely used from <a href="https://github.com/gv-sh/svideo">https://github.com/gv-sh/svideo</a></p>
+
+                </section>
+                <section class="footer">
+                    <p>03.04.2020</p>
+                    <p>Tagged: <a href="/tagged/projects">projects</a>, <a href="/tagged/raspberry-pi">raspberry-pi</a>, <a href="/tagged/synchronized-playback">synchronized-playback</a>, <a href="/tagged/svideo-api">svideo-api</a>, <a href="/tagged/video-installations">video-installations</a>, <a href="/tagged/creative-technology">creative-technology</a>, <a href="/tagged/new-media-art">new-media-art</a>, <a href="/tagged/debanshu-bhaumik">debanshu-bhaumik</a>, <a href="/tagged/single-board-computers">single-board-computers</a>, <a href="/tagged/video-grid-display">video-grid-display</a>, <a href="/tagged/multi-screen-setup">multi-screen-setup</a>, <a href="/tagged/tcp-ip-communication">tcp-ip-communication</a>, <a href="/tagged/master-slave-configuration">master-slave-configuration</a>, <a href="/tagged/command-line-playback">command-line-playback</a>, <a href="/tagged/video-syncing">video-syncing</a>, <a href="/tagged/art-installations">art-installations</a>, <a href="/tagged/digital-displays">digital-displays</a>, <a href="/tagged/network-video-streaming">network-video-streaming</a>, <a href="/tagged/video-filters">video-filters</a>, <a href="/tagged/video-cropping">video-cropping</a>, <a href="/tagged/media-synchronization">media-synchronization</a>, <a href="/tagged/open-source-project">open-source-project</a>, <a href="/tagged/video-display-configuration">video-display-configuration</a>, <a href="/tagged/vlc-player">vlc-player</a>, <a href="/tagged/large-scale-display">large-scale-display</a>, <a href="/tagged/collaborative-installation">collaborative-installation</a>, <a href="/tagged/media-control">media-control</a>, <a href="/tagged/socket-programming">socket-programming</a>, <a href="/tagged/api-development">api-development</a>, <a href="/tagged/real-time-effects">real-time-effects</a>, <a href="/tagged/digital-prototyping">digital-prototyping</a></p>
+                </section>
+            </article>
+        </main>
+    </body>
+    <script>
+        // Function to update localStorage with the current state of expanded items
+        function updateExpandedState(parentId, isExpanded) {
+            let expandedItems = JSON.parse(localStorage.getItem('expandedItems')) || [];
+
+            if (isExpanded) {
+                // Add to expandedItems if not already present
+                if (!expandedItems.includes(parentId)) {
+                    expandedItems.push(parentId);
+                }
+            } else {
+                // Remove from expandedItems
+                expandedItems = expandedItems.filter(id => id !== parentId);
+            }
+
+            // Update localStorage with the modified array
+            localStorage.setItem('expandedItems', JSON.stringify(expandedItems));
+            console.log(`Updated expanded state for ${parentId}:`, expandedItems); // Debugging line
+        }
+
+        // Function to restore the expanded state from localStorage on page load
+        function restoreExpandedState() {
+            const expandedItems = JSON.parse(localStorage.getItem('expandedItems')) || [];
+
+            expandedItems.forEach(parentId => {
+                const parentLink = document.getElementById(parentId);
+                if (parentLink) {
+                    parentLink.classList.add('expanded');
+                    // Show all child items with the matching data-parent attribute
+                    document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                        child.classList.remove('hidden');
+                    });
+                }
+            });
+            console.log("Restored expanded state from localStorage:", expandedItems); // Debugging line
+        }
+
+        // Set up event listeners for each parent link
+        document.querySelectorAll('a[data-show-children]').forEach(parentLink => {
+            parentLink.addEventListener('click', function(event) {
+                // Prevent default action to avoid navigation
+                event.preventDefault();
+
+                // Toggle the expanded class on the parent
+                parentLink.classList.toggle('expanded');
+
+                // Get the ID of the parent to match with data-parent attributes
+                const parentId = parentLink.id;
+                const isExpanded = parentLink.classList.contains('expanded');
+
+                // Update localStorage based on the current expanded state
+                updateExpandedState(parentId, isExpanded);
+
+                // Toggle visibility for all child items with a matching data-parent
+                document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                    child.classList.toggle('hidden', !isExpanded);
+                });
+
+                // Navigate to the link after updating the state
+                window.location.href = parentLink.href;
+            });
+        });
+
+        // Restore the expanded state on page load
+        document.addEventListener('DOMContentLoaded', (event) => {
+            restoreExpandedState();
+        });
+    </script>
+</html>

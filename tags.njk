@@ -1,0 +1,33 @@
+---
+layout: base.njk
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tagged/{{ tag }}/
+---
+<h1>{{ tag | capitalize | unSlug}}</h1>
+
+{% if tag and tag is string %}
+    {% set tag = tag | replace(' ', '-') %}
+{% endif %}
+
+<div class="collection">
+{% set taglist = collections[ tag ] %}
+{% for post in taglist | reverse %}
+{% set image = post.data.image %}
+{% set title = post.data.title | truncate(50) %}
+{% set content = post.content | stripHtml | truncate(80) %}
+<div class="collection-item">
+    <div class="text">
+        <a href="{{ post.url }}">{{ title }}</a><br/>
+        {% if post.data.meta %}{{ post.data.meta }}, {% endif %}{{ content }} 
+    </div>
+    {% if image %}
+    <div class="image">
+        <img src="{{ image }}">
+    </div>
+    {% endif %}
+</div>
+{% endfor %}
+</div>
