@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("CNAME");
 
     eleventyConfig.addCollection("notebook", function (collectionApi) {
         return collectionApi.getFilteredByGlob("notebook/**/*.md");
