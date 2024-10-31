@@ -4,7 +4,7 @@ meta: 2020
 date: 2020-12-01
 image: /assets/images/2020/2020.jpg
 layout: base.njk
-tags: ["projects", "algorithmic-literacy", "explainable-ai", "human-centered-design", "sense-making", "digital-transparency", "speculative-design", "algorithmic-bias", "financial-sustainability", "environmental-indicators", "impact-investing", "student-projects", "interaction-design", "algorithmic-literacy", "ethical-ai", "deconstruction-theory", "social-impact", "post-structuralism", "accessible-learning", "experiential-learning", "visual-storytelling", "sustainable-investing", "interdisciplinary-learning", "educational-challenges", "inclusive-design", "pandemic-adaptations", "esg-reporting", "cultural-algorithms", "financial-innovation", "social-responsibility", "experimental-teaching"]
+tags: [projects, algorithmic-literacy, explainable-ai, human-centered-design, sense-making, digital-transparency, speculative-design, algorithmic-bias, financial-sustainability, environmental-indicators, impact-investing, student-projects, interaction-design, algorithmic-literacy, ethical-ai, deconstruction-theory, social-impact, post-structuralism, accessible-learning, experiential-learning, visual-storytelling, sustainable-investing, interdisciplinary-learning, educational-challenges, inclusive-design, pandemic-adaptations, esg-reporting, cultural-algorithms, financial-innovation, social-responsibility, experimental-teaching]
 --- 
 
 This note features student work.

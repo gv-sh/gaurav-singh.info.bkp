@@ -3,7 +3,7 @@ title: SVideo
 date: 2020-04-03
 layout: base.njk
 image: /assets/images/2019/reride.jpg
-tags: ["projects", "raspberry-pi", "synchronized-playback", "svideo-api", "video-installations", "creative-technology", "new-media-art", "debanshu-bhaumik", "single-board-computers", "video-grid-display", "multi-screen-setup", "tcp-ip-communication", "master-slave-configuration", "command-line-playback", "video-syncing", "art-installations", "digital-displays", "network-video-streaming", "video-filters", "video-cropping", "media-synchronization", "open-source-project", "video-display-configuration", "vlc-player", "large-scale-display", "collaborative-installation", "media-control", "socket-programming", "api-development", "real-time-effects", "digital-prototyping"]
+tags: [projects, raspberry-pi, synchronized-playback, svideo-api, video-installations, creative-technology, new-media-art, debanshu-bhaumik, single-board-computers, video-grid-display, multi-screen-setup, tcp-ip-communication, master-slave-configuration, command-line-playback, video-syncing, art-installations, digital-displays, network-video-streaming, video-filters, video-cropping, media-synchronization, open-source-project, video-display-configuration, vlc-player, large-scale-display, collaborative-installation, media-control, socket-programming, api-development, real-time-effects, digital-prototyping]
 --- 
 
 <img src="/assets/images/2019/reride.jpg"/>

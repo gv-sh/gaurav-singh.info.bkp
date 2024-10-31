@@ -2,7 +2,7 @@
 title: Rendering a hypercube
 date: 2023-09-15
 layout: base.njk
-tags: ["study", "notebook", "hypercube", "4d", "geometry", "mathematics", "research", "science", "humanities"]
+tags: [study, notebook, hypercube, 4d, geometry, mathematics, research, science, humanities]
 --- 
 
 ![Hypercube](/assets/sketches/sketch_hypercube.gif)

@@ -3,7 +3,7 @@ title: Introducing Mathscapes
 date: 2016-09-01
 layout: base.njk
 image: /assets/images/2016/M.jpg
-tags: ["mathscapes", "mathematics", "algorithms", "research", "philosophy", "computers", "science", "humanities"]
+tags: [mathscapes, mathematics, algorithms, research, philosophy, computers, science, humanities]
 --- 
 
 ![Cover](/assets/images/2016/M.jpg)

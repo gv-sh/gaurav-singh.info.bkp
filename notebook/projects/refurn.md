@@ -4,7 +4,7 @@ meta: 2014
 date: 2014-09-19
 image: /assets/images/2014/slabs-review.jpg
 layout: base.njk
-tags: ["projects", "rehabilitation-furniture", "reFurn", "situated-negotiation", "physical-inactivity", "embedded-technology", "IoT-furniture", "personal-informatics", "out-of-clinic-exercise", "health-engagement", "wearable-technology", "ambient-feedback", "smart-homes", "exercise-motivation", "personalized-rehabilitation", "user-centered-design", "physical-therapy", "pervasive-computing", "pain-management", "posture-awareness", "alternative-feedback", "rehabilitation-barriers", "lifestyle-integration", "instant-feedback", "haptic-feedback", "health-outcomes", "behavior-change", "seamless-integration", "healthy-lifestyles", "rehabilitation-innovation", "exercise-misconceptions"]
+tags: [projects, rehabilitation-furniture, reFurn, situated-negotiation, physical-inactivity, embedded-technology, IoT-furniture, personal-informatics, out-of-clinic-exercise, health-engagement, wearable-technology, ambient-feedback, smart-homes, exercise-motivation, personalized-rehabilitation, user-centered-design, physical-therapy, pervasive-computing, pain-management, posture-awareness, alternative-feedback, rehabilitation-barriers, lifestyle-integration, instant-feedback, haptic-feedback, health-outcomes, behavior-change, seamless-integration, healthy-lifestyles, rehabilitation-innovation, exercise-misconceptions]
 --- 
 
 <img src="/assets/images/2014/slabs-review.jpg">

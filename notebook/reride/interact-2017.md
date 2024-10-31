@@ -2,7 +2,7 @@
 title: Interact 2017
 date: 2017-09-30
 layout: base.njk
-tags: ["reride", "interact", "2017", "conference", "interaction-design", "prototype", "demo", "workshop", "feedback", "design-challenge", "professional-growth"]
+tags: [reride, interact, 2017, conference, interaction-design, prototype, demo, workshop, feedback, design-challenge, professional-growth]
 --- 
 
 <img src="/assets/images/2017/interact_7.jpg" alt=""/> 

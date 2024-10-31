@@ -2,7 +2,7 @@
 title: RAMS model
 date: 2023-08-15
 layout: base.njk
-tags: ["study", "rams", "2023", "risk-communication", "social-media", "science", "research", "communication", "risk-perception", "risk-amplification", "risk-mitigation"]
+tags: [study, rams, 2023, risk-communication, social-media, science, research, communication, risk-perception, risk-amplification, risk-mitigation]
 --- 
 
 Earlier this year in May 2023, I had an opportunity to speak [Dr. Santosh Vijayakumar](https://www.northumbria.ac.uk/about-us/our-staff/v/santosh-vijaykumar/), who is a health and risk communication scientist, and currently an associate professor in the department of Psychology at Nortumbria University, Newcastle (UK). A series of exchanges led me to discover one of his works where he and his colleagues explored the role of social media in shaping public risk perceptions during infectious disease outbreaks. Drawing from previous frameworks and using the 2009 H1N1 pandemic as a case study, they introduce the Risk Amplification through Media Spread (RAMS) model [1]. This model highlights the interconnected nature of social media in amplifying risk perceptions and offers communication strategies for outbreak scenarios. The study underscores the importance of further research on the RAMS model, which also piqued my interest. 

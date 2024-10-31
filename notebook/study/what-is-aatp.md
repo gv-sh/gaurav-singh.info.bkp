@@ -2,7 +2,7 @@
 title: AATP
 date: 2024-07-28
 layout: base.njk
-tags: ["study", "aatp", "agriculture", "traceability", "protocol", "australia", "esg", "sustainability", "supply-chain", "traceability-tools", "open-standards", "interoperability"]
+tags: [study, aatp, agriculture, traceability, protocol, australia, esg, sustainability, supply-chain, traceability-tools, open-standards, interoperability]
 --- 
 
 Australia’s agriculture sector is under increasing pressure to enhance transparency and sustainability in its operations. This demand comes from both regulatory bodies and consumers who are more conscious about the environmental, social, and governance (ESG) impacts of the products they purchase. In response to these challenges, the Australian Agriculture Traceability Protocol (AATP) has been developed as a robust framework to ensure the traceability of agricultural products from paddock to plate. The AATP is an adaptation of the UN Transparency Protocol, specifically tailored to meet the needs of Australian producers. Its primary goal is to help these producers comply with emerging ESG requirements by providing a comprehensive governance framework that facilitates seamless interaction between certifiers, farm systems, and enterprise systems. The protocol leverages interoperability and traceability tools to improve the quality of information about Australian-made products, thereby enhancing their marketability and consumer trust. [1-3]

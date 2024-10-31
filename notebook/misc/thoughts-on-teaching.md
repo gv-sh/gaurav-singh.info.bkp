@@ -2,7 +2,7 @@
 title: Thoughts on teaching
 date: 2017-04-17
 layout: base.njk
-tags: ["teaching", "srishti", "design", "design-education", "kolb", "experiential-learning", "differentiated-instruction", "math-anxiety", "interdisciplinary-learning", "structured-learning", "unstructured-learning", "professional-growth", "unorganised"]
+tags: [teaching, srishti, design, design-education, kolb, experiential-learning, differentiated-instruction, math-anxiety, interdisciplinary-learning, structured-learning, unstructured-learning, professional-growth, unorganised]
 --- 
 
 Reflecting on my teaching journey as I finish the first cycle since joining Srishti, I realize that speaking about it is more straightforward than putting it into practice. I have encountered several challenges while adapting to teaching design and technical subjects in academic and non-academic settings. Using Kolb's experiential learning cycle [1] has been a helpful tool in introspecting my teaching experiences and identifying areas for growth. In this reflective note, I will summarize what I have learned and the challenges I continue to face as a teacher.

@@ -2,7 +2,7 @@
 title: ReRide's next iteration
 date: 2018-07-15
 layout: base.njk
-tags: ["reride", "2018", "interaction-design", "prototype", "demo", "workshop", "feedback", "design-challenge"]
+tags: [reride, 2018, interaction-design, prototype, demo, workshop, feedback, design-challenge]
 --- 
 
 <img src="/assets/images/2018/3.jpg"/>

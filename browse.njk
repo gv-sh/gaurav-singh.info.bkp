@@ -1,0 +1,21 @@
+---
+title: Index
+layout: base.njk
+---
+
+{% set tags = [] %}
+{% for post in collections.all %}
+    {% for tag in post.data.tags %}
+        {% if tag not in tags %}
+            {% set tags = tags | push(tag) %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+{% set tags = tags | sort %}
+
+<ul>
+    {% for tag in tags %}
+        <li><a href="/tagged/{{ tag }}">{{ tag }}</a></li>
+    {% endfor %}
+</ul>

@@ -2,7 +2,7 @@
 title: TCO17 India regionals
 date: 2017-09-02
 layout: base.njk
-tags: ["topcoder", "tco", "india", "regional-event", "design-challenge", "cognitive-design", "topcoder-studio", "topcoder-workshop", "professional-growth", "unorganised"]
+tags: [topcoder, tco, india, regional-event, design-challenge, cognitive-design, topcoder-studio, topcoder-workshop, professional-growth, unorganised]
 ---
 
 <img src="/assets/images/2017/workshop.jpg" />

@@ -4,7 +4,7 @@ meta: 2012
 date: 2012-07-08
 image: /assets/images/2012/multimarker.jpg
 layout: base.njk
-tags: ["projects", "aruco-markers", "multiple-object-tracking", "real-time-tracking", "low-light-conditions", "object-detection", "3d-virtual-embedding", "marker-orientation", "interactive-markers", "computer-vision", "augmented-reality", "partial-occlusions", "coded-markers", "video-sequences", "marker-interaction", "robust-tracking", "real-world-applications", "tracking-algorithms", "marker-detection", "virtual-objects", "real-time-processing", "undergraduate-thesis", "spatial-computing", "physical-digital-interaction", "implementation-focus", "marker-based-ar"]
+tags: [projects, aruco-markers, multiple-object-tracking, real-time-tracking, low-light-conditions, object-detection, 3d-virtual-embedding, marker-orientation, interactive-markers, computer-vision, augmented-reality, partial-occlusions, coded-markers, video-sequences, marker-interaction, robust-tracking, real-world-applications, tracking-algorithms, marker-detection, virtual-objects, real-time-processing, undergraduate-thesis, spatial-computing, physical-digital-interaction, implementation-focus, marker-based-ar]
 --- 
 
 <img src="/assets/images/2012/multimarker.jpg"/>

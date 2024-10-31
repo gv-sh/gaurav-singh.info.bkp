@@ -1,6 +1,6 @@
 ---
 title: In defense of a creative pursuit
-tags: ["writing", "creativity", "lateral-growth", "innovation", "writing", "flow-state", "multiple-intelligences", "pressfield", "catmull", "csikszentmihalyi", "gardner", "kleon", "cameron", "artist-way", "the-war-of-art", "collaboration", "interdisciplinary-learning", "counterintuitive-ideas", "innovation-ecosystems", "creativity-recovery", "creativity-cultures"]
+tags: [writing, creativity, lateral-growth, innovation, writing, flow-state, multiple-intelligences, pressfield, catmull, csikszentmihalyi, gardner, kleon, cameron, artist-way, the-war-of-art, collaboration, interdisciplinary-learning, counterintuitive-ideas, innovation-ecosystems, creativity-recovery, creativity-cultures]
 date: 2024-07-30
 layout: base.njk
 --- 

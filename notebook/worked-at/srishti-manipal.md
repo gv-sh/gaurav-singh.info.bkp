@@ -3,7 +3,7 @@ title: Faculty member, Srishti-Manipal
 meta: 2017-22
 date: 2017-07-01
 layout: base.njk
-tags: [worked-at, srishti-manipal, faculty-member, undergraduate-courses, graduate-courses, programming, mathematics, human-computer-interaction, experimental-mathematics-lab, design-computation, research-supervision, research-papers, international-conferences, posture-sensing, research-papers, international-conferences, posture-sensing]
+tags: [worked-at, srishti-manipal, faculty-member, human-computer-interaction, maths-lab, design-computation]
 --- 
 
 Taught undergraduate and graduate courses in programming, mathematics, and human-computer interaction. At Srishti Manipal Institute in India, I facilitated the Experimental Mathematics Lab and was Head of Studies for the M.Des. - Design Computation program. Supervised undergraduate thesis and papers accepted at international conferences such as CHI, OzCHI, and IndiaHCI.

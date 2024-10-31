@@ -4,7 +4,7 @@ meta: 2013
 date: 2013-11-13
 image: /assets/images/2013/scsa.jpg
 layout: base.njk
-tags: ["projects", "citizen-satellites", "space-technology", "srishti-institute", "healthcare-access", "telemedicine", "vsat-network", "remote-healthcare", "informal-education", "user-centered-design", "prototype-development", "interim-semester", "rural-connectivity", "tele-education", "kiosk-interface", "digital-innovation", "webrtc", "atm+ project", "frugal-technology", "social-impact-design", "rural-india", "visvesvaraya-museum", "design-for-health", "satellite-communication", "digital-accessibility", "interactive-exhibits", "design-research", "mobile-technology", "low-cost-solutions", "community-health", "emerging-technologies"]
+tags: [projects, citizen-satellites, space-technology, srishti-institute, healthcare-access, telemedicine, vsat-network, remote-healthcare, informal-education, user-centered-design, prototype-development, interim-semester, rural-connectivity, tele-education, kiosk-interface, digital-innovation, webrtc, atm+ project, frugal-technology, social-impact-design, rural-india, visvesvaraya-museum, design-for-health, satellite-communication, digital-accessibility, interactive-exhibits, design-research, mobile-technology, low-cost-solutions, community-health, emerging-technologies]
 --- 
 
 Co-developed with SCSA team.

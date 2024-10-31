@@ -3,7 +3,7 @@ title: Future of Work
 meta: 2013
 date: 2013-09-12
 layout: base.njk
-tags: ["projects", "informal-economy", "unorganized-workers", "sensor-technology", "professional-growth", "social-well-being", "mobile-technology", "workforce-innovation", "india-workforce", "jugaad", "frugal-innovation", "productivity-tools", "emerging-tech", "social-impact", "adp-program", "primary-research", "secondary-research", "worker-ecosystems", "economic-empowerment", "digital-inclusion", "worker-support", "informal-sector", "research-synthesis", "technology-adoption", "work-efficiency", "sensor-based-solutions", "economic-resilience", "team-collaboration", "job-elasticity", "mobile-productivity", "social-innovation"]
+tags: [projects, informal-economy, unorganized-workers, sensor-technology, professional-growth, social-well-being, mobile-technology, workforce-innovation, india-workforce, jugaad, frugal-innovation, productivity-tools, emerging-tech, social-impact, adp-program, primary-research, secondary-research, worker-ecosystems, economic-empowerment, digital-inclusion, worker-support, informal-sector, research-synthesis, technology-adoption, work-efficiency, sensor-based-solutions, economic-resilience, team-collaboration, job-elasticity, mobile-productivity, social-innovation]
 --- 
 
 Co-developed with Sarvashree Jain. The goal of this project, conducted by a team of four students as part of the ADP program at Srishti, was to redefine work experiences for unorganized workers using emerging sensor technologies. The team was divided into two groups, one focusing on enhancing professional growth with assisted tools and technologies, and the other on the social well-being of informal workers.

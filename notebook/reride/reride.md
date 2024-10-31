@@ -2,7 +2,7 @@
 title: ReRide
 date: 2019-12-30
 layout: base.njk
-tags: ["reride", "2019", "interaction-design", "prototype", "demo", "workshop", "feedback", "design-challenge"]
+tags: [reride, 2019, interaction-design, prototype, demo, workshop, feedback, design-challenge]
 --- 
 
 <img src="/assets/images/2019/reride-new.jpg"/>

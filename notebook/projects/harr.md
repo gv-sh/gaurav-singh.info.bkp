@@ -4,7 +4,7 @@ meta: 2011
 date: 2011-05-10
 image: /assets/images/2011/harr.jpg
 layout: base.njk
-tags: ["projects", "face-detection", "haar-cascade", "adaboost-algorithm", "machine-learning", "computer-vision", "image-processing", "human-computer-interaction", "bias-in-algorithms", "facial-recognition", "real-time-detection", "partial-occlusions", "ensemble-learning", "weak-classifiers", "learning-based-systems", "face-vs-recognition", "sensor-technology", "pattern-recognition", "feature-selection", "cascade-function", "low-light-conditions", "adaptive-boosting", "hci-applications", "object-detection", "algorithmic-bias", "image-classifiers", "undergraduate-research", "robust-systems", "algorithmic-equity", "digital-vision", "pre-thesis-project"]
+tags: [projects, face-detection, haar-cascade, adaboost-algorithm, machine-learning, computer-vision, image-processing, human-computer-interaction, bias-in-algorithms, facial-recognition, real-time-detection, partial-occlusions, ensemble-learning, weak-classifiers, learning-based-systems, face-vs-recognition, sensor-technology, pattern-recognition, feature-selection, cascade-function, low-light-conditions, adaptive-boosting, hci-applications, object-detection, algorithmic-bias, image-classifiers, undergraduate-research, robust-systems, algorithmic-equity, digital-vision, pre-thesis-project]
 --- 
 
 <img src="/assets/images/2011/harr.jpg"/>

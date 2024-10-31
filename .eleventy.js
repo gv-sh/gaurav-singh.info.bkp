@@ -29,4 +29,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("toLowerCase", function (content) {
         return content.toLowerCase();
     });
+    eleventyConfig.addFilter("push", function (array, item) {
+        array.push(item);
+        return array;
+    });
+    eleventyConfig.addFilter("sort", function (array) {
+        return array.sort();
+    });
 }

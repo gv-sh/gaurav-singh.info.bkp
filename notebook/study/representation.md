@@ -2,7 +2,7 @@
 title: Representation
 date: 2013-09-09
 layout: base.njk
-tags: ["study", "representation", "stuart-hall", "cultural-representations", "signifying-practices", "1997", "london", "critical-thinking", "self-awareness", "social-and-cultural-landscape", "power-dynamics", "ideology", "reflective-practice"]
+tags: [study, representation, stuart-hall, cultural-representations, signifying-practices, 1997, london, critical-thinking, self-awareness, social-and-cultural-landscape, power-dynamics, ideology, reflective-practice]
 --- 
 
 Recently, I attended a masterclass at Srishti on reflective practice, where I better understood its significance in personal and professional growth. I learned that reflective practice involves critically analyzing one's work and measuring change over time. It is a tool that empowers practitioners to learn from their mistakes, discover their reactions and actions, and identify their strengths and weaknesses. I also explored the challenges of reflective practice and the available models. Before reading Stuart Hall's book _Representation,_ [1] I was curious about how reflective practice can be applied to other areas of life.

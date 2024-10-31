@@ -3,7 +3,7 @@ title: ADP in Innovation and Experience Design, Srishti
 meta: 2013-15
 date: 2015-04-31
 layout: base.njk
-tags: [education, innovation-design, experience-design, interdisciplinary-design, advanced-diploma, creative-expression, technical-background, user-experience, prototyping, design-school, design-thinking, new-interfaces, societal-impact, peer-collaboration, interaction-design, future-of-work, cultural-studies, reflective-practice, creative-prototyping, exhibition-projects, multidisciplinary-learning, chintalayyagarepalle-study, off-grid-energy, piezoelectric-materials, community-design, user-experience-foundations, engineering-to-design, srishti-institute, conceptual-design, creative-collaboration, innovation-research]
+tags: [education, design, design-school]
 --- 
 
 In my postgraduate Advanced Diploma in Innovation and Experience Design, I found an interesting extension of my previous technical education. While the technical aspects of the courses weren't entirely new to me, the shift from an engineering-focused environment to a design school setting was a refreshing and desired change. The first year was filled with workshops and exhibitions, but the real value lay in the diverse perspectives and ideas shared by peers and instructors. Courses like 'New Interfaces for Creative Expression' and 'The Future of Work' were about exploring design's impact on society rather than introducing new technical concepts.

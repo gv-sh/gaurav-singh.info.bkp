@@ -2,7 +2,7 @@
 title: Switching roles at Srishti
 date: 2017-09-08
 layout: base.njk
-tags: ["teaching", "srishti", "interaction-design", "students", "electronic-prototyping", "arduino", "topcoder", "workshop", "feedback", "assessment", "plagiarism", "professional-growth", "unorganised"]
+tags: [teaching, srishti, interaction-design, students, electronic-prototyping, arduino, topcoder, workshop, feedback, assessment, plagiarism, professional-growth, unorganised]
 --- 
 
 The first cycle of the odd semester at Srishti presented me with unexpected challenges. I was assigned to teach classes that were not in line with my interests, which left me feeling disappointed and uncomfortable. While I appreciate the idea behind exposing newcomers to various subjects to better prepare them, I was uncertain if it would benefit me as I have a specific area of interest that I am focused on, and any deviation from it could derail my roadmap. Initially, I was assigned to teach two units in the first cycle: one in Interaction Design for Master's students and another outside of my area of expertise. However, due to a lack of sign-ups, the latter was canceled, and I was reassigned to another unit in Interaction Design for undergraduates.

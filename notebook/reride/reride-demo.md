@@ -2,7 +2,7 @@
 title: ReRide demo
 date: 2017-09-25
 layout: base.njk
-tags: ["reride", "demo", "2017", "interaction-design", "prototype", "demo", "workshop", "feedback", "design-challenge"]
+tags: [reride, demo, 2017, interaction-design, prototype, demo, workshop, feedback, design-challenge]
 ---  
 
 <div class="container">

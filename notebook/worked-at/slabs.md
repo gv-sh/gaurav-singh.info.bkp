@@ -3,7 +3,7 @@ title: Research intern, Slabs
 meta: 2014
 date: 2014-05-01
 layout: base.njk
-tags: [worked-at,slabs, research-intern, faculty-workshop, shared-ethics, information-systems, faculty-development, faculty-workshop, shared-ethics, information-systems, faculty-development]
+tags: [worked-at, slabs, research-intern, faculty-workshop, shared-ethics]
 --- 
 
 Supervisor: Mr.Atul Saraf, [Dr.Naveen Bagalkot](/mentors/naveen-bagalkot/)

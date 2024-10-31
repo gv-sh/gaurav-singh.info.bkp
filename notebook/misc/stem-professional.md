@@ -2,7 +2,7 @@
 title: STEM Professional Program
 date: 2024-09-29
 layout: base.njk
-tags: ["stem", "griffith-university", "australia", "professional-growth", "unorganised"]
+tags: [stem, griffith-university, australia, professional-growth, unorganised]
 --- 
 
 ![Stem Professionals Gold Achievement 2024](/assets/images/2024/stem-award.jpg)

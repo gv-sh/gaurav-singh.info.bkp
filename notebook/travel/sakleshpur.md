@@ -2,7 +2,7 @@
 title: Sakleshpur, 2018
 date: 2018-12-01
 layout: base.njk
-tags: ["travel", "sakleshpur", "karnataka", "fort", "nature", "reflection"]
+tags: [travel, sakleshpur, karnataka, fort, nature, reflection]
 --- 
 
 <img src="/assets/images/2018/skpr_1.jpg">

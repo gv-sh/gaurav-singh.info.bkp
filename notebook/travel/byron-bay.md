@@ -3,7 +3,7 @@ title: Byron Bay, in rain and in head
 date: 2024-01-08
 layout: base.njk
 image: /assets/images/2024/IMG_0841.jpeg
-tags: ["travel", "byron-bay", "rain", "head", "thoughts", "reflection", "personal-growth", "personal-reflection"]
+tags: [travel, byron-bay, rain, head, thoughts, reflection, personal-growth, personal-reflection]
 --- 
 
 ![Byron Bay Beach](/assets/images/2024/IMG_0841.jpeg)

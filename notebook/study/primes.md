@@ -2,7 +2,7 @@
 title: Primes
 date: 2013-03-05
 layout: base.njk
-tags: ["primes", "study", "mathematics", "algorithms", "research", "philosophy", "computers", "science", "humanities"]
+tags: [primes, study, mathematics, algorithms, research, philosophy, computers, science, humanities]
 --- 
 
 For as long as I remember, I always had a deep interest in prime numbers. And for that, this certainly makes the cut to be a notes post here. As I'm writing this post, I'm unsure about the tone and content of this notes in future, but would like it to not just have research notes but also about my first-hand experiences. Prime Numbers are the building blocks of the numbers and perhaps the processes of the Universe, as I like to think. They have special properties and some very profound applications in science and nature. However simple their definition may be, we still do not have a formula for it. I find the fundamental theorem of arithmetic [1] fairly straightforward and the fact that only primes can not be expressed as the product of other (positive natural) numbers, is a very intuitive implication that I think most would be able to understand.

@@ -2,7 +2,7 @@
 title: Dr. Naveen Bagalkot
 date: 2023-11-06
 layout: base.njk
-tags: ["mentor","design-research", "design-education", "srishti", "human-computer-interaction", "participatory-design", "community-based-care", "critical-making", "localized-design", "interaction-design", "architecture", "industrial-design", "phd", "community-wellbeing", "design-beku", "maya-health", "it-for-change", "jatan-sansthan", "bangalore", "pune-design-festival", "it-university-of-copenhagen", "iit-bombay"]
+tags: [mentor, design-research, design-education, srishti, human-computer-interaction, participatory-design, community-based-care, critical-making, localized-design, interaction-design, architecture, industrial-design, phd, community-wellbeing, design-beku, maya-health, it-for-change, jatan-sansthan, bangalore, pune-design-festival, it-university-of-copenhagen, iit-bombay]
 --- 
 
 Naveen is a design researcher, educator, and facilitator broadly working at the intersections of Human-Computer Interaction design (HCI), participatory design and community-based care. He is trained as an architect, industrial designer, and holds a PhD in Interaction Design from the IT University of Copenhagen. His work explores alternative possibilities for localized and participatory design of digital-physical-social infrastructures for community care and wellbeing.

@@ -2,7 +2,7 @@
 title: First, by reflection
 date: 2013-09-04
 layout: base.njk
-tags: ["study", "reflection", "confucius", "philosophy", "learning", "personal-growth", "professional-development", "design-education", "srishti"]
+tags: [study, reflection, confucius, philosophy, learning, personal-growth, professional-development, design-education, srishti]
 --- 
 
 By three methods, we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third, by experience, which is the bitterest. — Confucius

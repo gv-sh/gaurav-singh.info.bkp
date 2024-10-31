@@ -49,7 +49,9 @@ blockquote {
 
 pre, code {
     background: #f4f4f4;
-    font-family: monospace;
+    font-family: 'Fragment Mono', monospace;
+    font-size: 0.9em;
+    letter-spacing: -0.02em;
 }
 
 pre {
@@ -192,4 +194,11 @@ hr {
     margin: 2em 0;
     border: 0;
     border-top: 1px solid #ddd;
+}
+
+.monospace {
+    font-family: monospace;
+    font-size: 0.9em;
+    font-family: 'Fragment Mono', monospace;
+    letter-spacing: -0.04em;
 }

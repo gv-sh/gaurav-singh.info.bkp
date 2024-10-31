@@ -2,7 +2,7 @@
 title: Mapping my life
 date: 2014-07-29
 layout: base.njk
-tags: ["workshop", "art", "artists", "india", "tahireh-lal", "unorganised"]
+tags: [workshop, art, artists, india, tahireh-lal, unorganised]
 --- 
 
 <img src="/assets/images/2014/mapping.jpg"/>

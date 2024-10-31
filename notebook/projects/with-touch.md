@@ -2,7 +2,7 @@
 title: Together with Touch
 date: 2022-02-15
 layout: base.njk
-tags: ["projects", "together-with-touch", "mental-health", "contemporary-dance", "live-data", "pandemic-impact", "emotional-well-being", "suicide-prevention", "performance-art", "public-space", "digital-interaction", "sound-driven-performance", "social-isolation", "physical-contact", "twitter-data", "digital-embodiment", "hybrid-performance", "goethe-institute", "artistic-exchange", "visual-art", "sensory-experience"]
+tags: [projects, together-with-touch, mental-health, contemporary-dance, live-data, pandemic-impact, emotional-well-being, suicide-prevention, performance-art, public-space, digital-interaction, sound-driven-performance, social-isolation, physical-contact, twitter-data, digital-embodiment, hybrid-performance, goethe-institute, artistic-exchange, visual-art, sensory-experience]
 --- 
 
 ![](/assets/twt/1@3x.jpg)

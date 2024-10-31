@@ -3,7 +3,7 @@ title: Shannon
 meta: 2011
 date: 2011-11-03
 layout: base.njk
-tags: ["study", "research", "information-theory", "mathematics", "algorithms", "research", "philosophy", "computers", "science", "humanities"]
+tags: [study, research, information-theory, mathematics, algorithms, research, philosophy, computers, science, humanities]
 --- 
  
 In 2008, during my first year of engineering, I developed a fascination for memory-efficient data structures and algorithms. Combined with a prior interest in prime numbers and their properties, they eventually led me to explore information entropy, which I learned through Claude Shannon's seminal paper, 'A Mathematical Theory of Communication.'[1] Shannon, an American mathematician, and electrical engineer, is often referred to as the 'father of information theory,' His groundbreaking contributions have revolutionized the fields of digital circuit design and communication theory. In his paper, Shannon introduced the concept of entropy as a measure of the amount of information in a message, which has profoundly impacted modern technology's development. The paper has also served as an inspiration for my interest in developing information compression algorithms, which I hope to get to, on one day. In this review note, I will summarize Shannon's paper, analyze its impact and limitations, and explore its ongoing relevance to information theory in the modern world.

@@ -3,7 +3,7 @@ title: Bachelors, Computer Science, JNTU-A
 meta: 2008-12
 date: 2012-04-01
 layout: base.njk
-tags: [education, computer-science, engineering-fundamentals, data-structures, programming, software-engineering, face-detection, Harr-cascade, adaboost-algorithm, real-time-tracking, 3d-virtual-integration, object-detection, project-based-learning, technical-education, emerging-technologies, minor-project, machine-learning, computer-vision, ethical-ai, computer-networks, operating-systems, database-management, web-technologies, ai-and-neural-networks, thesis-project, object-oriented-programming, data-mining, software-project-management, human-computer-interaction, compiler-design, microprocessors]
+tags: [education, computer-science]
 --- 
 
 During my four-year undergraduate program in Computer Science and Engineering, I acquired a combination of foundational knowledge and specialized skills, starting with basic sciences and programming and gradually progressing to complex concepts in computer science and emerging technologies. This education was enhanced by hands-on experience through intensive projects.

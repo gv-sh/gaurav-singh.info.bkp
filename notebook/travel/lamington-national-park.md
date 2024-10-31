@@ -3,7 +3,7 @@ title: A day at Lamington National Park
 date: 2024-09-07
 layout: base.njk
 image: /assets/images/2024/lamington-14.jpeg
-tags: ["travel", "lamington-national-park", "hike", "pool", "water", "nature", "spontaneous-trip", "reflection", "personal-growth"]
+tags: [travel, lamington-national-park, hike, pool, water, nature, spontaneous-trip, reflection, personal-growth]
 --- 
 
 ![Beechmont](/assets/images/2024/lamington-12.jpeg)

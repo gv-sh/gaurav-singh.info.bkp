@@ -2,7 +2,7 @@
 title: Design and evolution of my website
 date: 2024-09-17
 layout: base.njk
-tags: ["writing", "design", "evolution", "website", "personal-website", "personal-space", "control", "authenticity", "narrative", "reflection", "growth"]
+tags: [writing, design, evolution, website, personal-website, personal-space, control, authenticity, narrative, reflection, growth]
 --- 
 
 ### Purpose

@@ -4,7 +4,7 @@ meta: 2014
 date: 2014-10-25
 image: /assets/images/2014/nspine-1.jpg
 layout: base.njk
-tags: ["projects", "posture-improvement", "physical-rehabilitation", "pervasive-technology", "personal-informatics", "iot-applications", "self-reflection", "back-pain-relief", "exercise-motivation", "urban-india", "situated-negotiation", "body-posture-tracking", "wearable-tech", "health-informatics", "ambient-displays", "haptic-feedback", "user-centered-design", "daily-exercise-integration", "social-inhibitions", "rehabilitation-aids", "sensor-technology", "design-for-health", "activity-monitoring", "primary-research", "secondary-research", "user-interviews", "exercise-configurability", "real-world-challenges", "posture-analytics", "interactive-feedback", "behavioral-change"]
+tags: [projects, posture-improvement, physical-rehabilitation, pervasive-technology, personal-informatics, iot-applications, self-reflection, back-pain-relief, exercise-motivation, urban-india, situated-negotiation, body-posture-tracking, wearable-tech, health-informatics, ambient-displays, haptic-feedback, user-centered-design, daily-exercise-integration, social-inhibitions, rehabilitation-aids, sensor-technology, design-for-health, activity-monitoring, primary-research, secondary-research, user-interviews, exercise-configurability, real-world-challenges, posture-analytics, interactive-feedback, behavioral-change]
 --- 
 
 <img src="/assets/images/2014/nspine-1.jpg">

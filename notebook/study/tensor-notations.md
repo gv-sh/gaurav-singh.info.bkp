@@ -2,7 +2,7 @@
 title: Tensor notations
 date: 2023-11-11
 layout: base.njk
-tags: ["study", "tensor", "notations", "mathematics", "research", "science", "humanities"]
+tags: [study, tensor, notations, mathematics, research, science, humanities]
 --- 
 
 Tensor calculus is a branch of mathematics that extends the well-established principles of linear algebra in higher dimensions. In its essence, tensor calculus deals with tensors, which are mathematical objects that generalize the concepts of scalars and vectors to higher dimensions. Scalars are rank-0 tensors, representing simple quantities that are described by a single number, such as temperature or mass. Tensors, on the other hand, can be thought of as multi-dimensional arrays, where each element is identified by a set of indices and can encapsulate more complex data structures and relationships. Following notes summarises the key concepts for tensor notations from the book _Continuum Mechanics and Thermodynamics_ by Tadmor and others [1].

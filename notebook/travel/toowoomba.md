@@ -3,7 +3,7 @@ title: Flowers of Toowoomba
 date: 2024-09-28
 layout: base.njk
 image: /assets/images/2024/toowoomba/flowers-1.jpeg
-tags: ["travel", "toowoomba", "flowers", "nature", "reflection"]
+tags: [travel, toowoomba, flowers, nature, reflection]
 --- 
 
 ![A view from Mt Lofty Range from Toowoomba](/assets/images/2024/toowoomba/mt-lofty.jpeg)

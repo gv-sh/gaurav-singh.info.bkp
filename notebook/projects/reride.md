@@ -4,7 +4,7 @@ meta: 2017-2019
 date: 2019-12-30
 image: /assets/images/2019/reride-new.jpg
 layout: base.njk
-tags: ["projects", "motorcycle-commuting", "personal-informatics", "posture-tracking", "real-time-feedback", "digital-technology", "modular-architecture", "rider-safety", "sensor-integration", "hci", "interactive-dashboard", "in-situ-evaluation", "data-visualization", "cloud-storage", "camera-system", "human-computer-interaction", "motorbike-dashboard", "body-posture-data", "modular-prototyping", "real-time-posture-estimation", "road-safety", "marker-tracking", "iterative-design", "sensor-challenges", "technology-stack", "ble-limitations", "helmet-tracking", "performance-enhancement", "rider-experience", "personal-data", "soft-hardware-integration"]
+tags: [projects, motorcycle-commuting, personal-informatics, posture-tracking, real-time-feedback, digital-technology, modular-architecture, rider-safety, sensor-integration, hci, interactive-dashboard, in-situ-evaluation, data-visualization, cloud-storage, camera-system, human-computer-interaction, motorbike-dashboard, body-posture-data, modular-prototyping, real-time-posture-estimation, road-safety, marker-tracking, iterative-design, sensor-challenges, technology-stack, ble-limitations, helmet-tracking, performance-enhancement, rider-experience, personal-data, soft-hardware-integration]
 --- 
 
 <img src="/assets/images/2019/reride-new.jpg"/>
