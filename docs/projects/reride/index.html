@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KEN47XT3N8"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KEN47XT3N8');
+        </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+                onload="renderMathInElement(document.body, {
+                            delimiters: [
+                                {left: '$$', right: '$$', display: true},
+                                {left: '$', right: '$', display: false},
+                            ],
+                            throwOnError : false
+                        });">
+        </script>
+        <title>ReRide: A Bike Area Network for Embodied Self-monitoring during Motorbike Commute</title>
+    </head>
+    <body>
+        <main>
+            <nav>
+                <a href="/" id="hello">Hello</a>
+                <a href="#" id="about" data-show-children>About me</a>
+                <a href="/background/" data-parent="about" class="child hidden">Background</a>
+                <a href="/worked-at/" data-parent="about" class="child hidden">Career log</a>
+                <a href="/education/" data-parent="about" class="child hidden">Education</a>
+                <a href="#" id="work" data-show-children>Work</a>
+                <a href="/teaching/" data-parent="work" class="child hidden">Teaching</a>
+                <a href="/publications/" data-parent="work" class="child hidden">Publications</a>
+                <a href="#" id="notebook" data-show-children>Notebook</a>
+
+                <a href="/study/" data-parent="notebook" class="child hidden">Study</a>
+                <a href="/travel/" data-parent="notebook" class="child hidden">Travel</a>
+                <a href="/writing/" data-parent="notebook" class="child hidden">Writing</a>
+                <a href="/yearly-notes/" data-parent="notebook" class="child hidden">Yearly notes</a>
+                <a href="/unorganised/" data-parent="notebook" class="child hidden">Unorganised</a>
+
+                <a href="#" id="projects" data-show-children>Projects</a>
+                <a href="/exchanges/" data-parent="projects" class="child hidden">Exchanges</a>
+                <a href="/mathscapes/" data-parent="projects" class="child hidden">Mathscapes</a>
+                <a href="/reride/" data-parent="projects" class="child hidden">ReRide</a>
+                <a href="/triangle/" data-parent="projects" class="child hidden">Triangle</a>
+                <a href="/projects/" data-parent="projects" class="child hidden">Archived</a>
+
+                <a href="#" id="community" data-show-children>Community</a>
+                <a href="/mentors/" data-parent="community" class="child hidden">Mentors</a>
+                <a href="/peers/" data-parent="community" class="child hidden">Peers</a>
+                <a href="/students/" data-parent="community" class="child hidden">Students</a>
+                
+                <a href="/store/" id="store">Store</a>
+
+                <a href="#" id="connect" data-show-children>Connect</a>
+                <a href="mailto:hi@gvsh.cc" data-parent="connect" class="child hidden">Email</a>
+                <a href="https://www.linkedin.com/in/gv-sh/" data-parent="connect" class="child hidden">LinkedIn</a>
+                <a href="https://instagram.com/themakingofnow" data-parent="connect" class="child hidden">Instagram</a>
+            </nav>
+            <article>
+                <section class="title">
+                    <h1>ReRide: A Bike Area Network for Embodied Self-monitoring during Motorbike Commute</h1>
+                </section>
+                <section class="content">
+                    <img src="/assets/images/2019/reride-new.jpg"/>
+<p>This project is continuation of original ReRide design experiment started by <a href="/mentors/naveen-bagalkot/">Dr.Naveen Bagalkot</a> and Suraj Baadkar at Srishti Institute of Art, Design &amp; Technology, Bangalore in collaboration with Tomas Sokoler at the Digital Design Department at the IT University of Copenhagen.</p>
+<p>The motorcycle could soon be the new frontier for the exploration of human interaction with advanced digital technology. In this paper we present a demo of a system designed and implemented as platform exploring the design of personal informatics tools for motorbike commuting and help us conduct in-situ evaluation of such tools. We present the system architecture and demonstrate the capabilities of the system by presenting a case instantiation in the form of an interactive soft-and- hardware prototype that collects rider’s posture data, visualizes the data on the motorbike dashboard in real-time, and pushes the data to the cloud server for later retrieval. (Excerpt from the demo paper we submitted for Interact 2017 conference)</p>
+<p><em>2019 Iteration:</em> Building on the experiences and lessons learned from the 2017 demonstration, the ReRide team focused on creating a more stable platform for testing and exploring which data points would be most effective for posture estimation. This led to the exploration of camera systems as an alternative method for capturing posture data. The 2019 iteration saw the development of a camera system that utilized an 8 MP NoIR camera paired with an RPi Zero. This setup was capable of detecting specific markers placed on the rider's helmet and body, allowing the system to accurately determine the coordinates of the rider's head and shoulders. By extracting proximity and orientation data from these coordinates, the team was able to gain valuable insights into the rider's posture. The refined architecture in this iteration also focused on modularity and fast prototyping, enabling the ReRide team to quickly adapt and modify the system as needed. This iterative approach allowed for continuous improvement and fine-tuning of the platform, ensuring its ongoing relevance and usefulness in the context of motorcycle commuting.</p>
+<p><em>2017 Iteration:</em> During the 2017 iteration, the ReRide team developed a working prototype that aimed to enhance the motorcycle commuting experience by providing real-time feedback on various aspects of the rider's condition. To achieve this, multiple sensor points were strategically placed on both the rider's body and the motorcycle itself, capturing a range of data related to the rider's posture, lean angles, and overall performance. The information collected by these sensors was processed in real-time and displayed on the motorbike dashboard as glanceable feedback. This allowed riders to quickly and easily monitor their posture and performance while on the move. In addition, the data was transmitted to a remote server for storage, enabling riders to review and learn from their experiences once their journey was complete. The prototype was demonstrated and evaluated at the Interact 2017 Conference in IIT Bombay, offering valuable insights into the potential of such a system.</p>
+<p><em>Technical Challenges:</em> During the initial demonstration of ReRide, the team encountered several technical challenges. One major issue was the Genuino board's inability to effectively handle simultaneous BLE connections from multiple sensors. This limitation led to problems with the visualization app, including untimely handshakes and connection latency. Furthermore, the Genuino board was not capable of providing continuous power supply for extended periods, which in turn affected the sustainability of BLE polling. Recognizing the need for improved sensor placement to obtain more accurate and relevant data for posture information, the team aimed to address these critical technical challenges in subsequent iterations.</p>
+<p><em>Camera System Challenges:</em> The camera system for posture estimation showed potential but faced obstacles due to its reliance on face recognition. In the context of real-time scenarios on busy Indian roads and amidst heavy traffic, this reliance presented significant challenges. Despite these difficulties, the team remained committed to exploring the feasibility of a camera-only system for real-time posture estimation, acknowledging the potential benefits it could offer.</p>
+<p><em>Fixing the Tech Stack:</em> Selecting an appropriate technology stack for the evolving prototype proved challenging. To ensure maximum compatibility, ease of collaboration, and flexibility, the team opted to work with a consistent framework that had fewer dependencies. They also focused on maintaining a well-documented codebase, which would facilitate future contributions and scaling efforts. By addressing these challenges, the ReRide team was able to create a more robust platform for continued research and development.</p>
+<p>ReRide is a pioneering research project that focuses on developing a comprehensive platform for motorcycle riders to interact with their personal data before, during, and after their commutes. The working prototype gathers and visualizes rider's posture data in real-time, while simultaneously storing it for future analysis. The project aims to advance the exploration of human interaction with digital technology in motorcycle commuting, opening new possibilities for rider experience, safety, and performance enhancement. By inviting the Personal Informatics and HCI community to participate, ReRide is set to revolutionize the way riders engage with their personal data and interact with their motorcycles.</p>
+
+                </section>
+                <section class="footer">
+                    <p>30.12.2019</p>
+                </section>
+            </article>
+        </main>
+    </body>
+    <script>
+        // Function to update localStorage with the current state of expanded items
+        function updateExpandedState(parentId, isExpanded) {
+            let expandedItems = JSON.parse(localStorage.getItem('expandedItems')) || [];
+
+            if (isExpanded) {
+                // Add to expandedItems if not already present
+                if (!expandedItems.includes(parentId)) {
+                    expandedItems.push(parentId);
+                }
+            } else {
+                // Remove from expandedItems
+                expandedItems = expandedItems.filter(id => id !== parentId);
+            }
+
+            // Update localStorage with the modified array
+            localStorage.setItem('expandedItems', JSON.stringify(expandedItems));
+            console.log(`Updated expanded state for ${parentId}:`, expandedItems); // Debugging line
+        }
+
+        // Function to restore the expanded state from localStorage on page load
+        function restoreExpandedState() {
+            const expandedItems = JSON.parse(localStorage.getItem('expandedItems')) || [];
+
+            expandedItems.forEach(parentId => {
+                const parentLink = document.getElementById(parentId);
+                if (parentLink) {
+                    parentLink.classList.add('expanded');
+                    // Show all child items with the matching data-parent attribute
+                    document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                        child.classList.remove('hidden');
+                    });
+                }
+            });
+            console.log("Restored expanded state from localStorage:", expandedItems); // Debugging line
+        }
+
+        // Set up event listeners for each parent link
+        document.querySelectorAll('a[data-show-children]').forEach(parentLink => {
+            parentLink.addEventListener('click', function(event) {
+                // Prevent default action to avoid navigation
+                event.preventDefault();
+
+                // Toggle the expanded class on the parent
+                parentLink.classList.toggle('expanded');
+
+                // Get the ID of the parent to match with data-parent attributes
+                const parentId = parentLink.id;
+                const isExpanded = parentLink.classList.contains('expanded');
+
+                // Update localStorage based on the current expanded state
+                updateExpandedState(parentId, isExpanded);
+
+                // Toggle visibility for all child items with a matching data-parent
+                document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                    child.classList.toggle('hidden', !isExpanded);
+                });
+
+                // Navigate to the link after updating the state
+                window.location.href = parentLink.href;
+            });
+        });
+
+        // Restore the expanded state on page load
+        document.addEventListener('DOMContentLoaded', (event) => {
+            restoreExpandedState();
+        });
+    </script>
+</html>
