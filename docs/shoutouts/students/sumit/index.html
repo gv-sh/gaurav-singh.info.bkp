@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KEN47XT3N8"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KEN47XT3N8');
+        </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+                onload="renderMathInElement(document.body, {
+                            delimiters: [
+                                {left: '$$', right: '$$', display: true},
+                                {left: '$', right: '$', display: false},
+                            ],
+                            throwOnError : false
+                        });">
+        </script>
+        <title>Sumit Meena</title>
+    </head>
+    <body>
+        <main>
+            <nav>
+                <a href="/" id="hello">Hello</a>
+                <a href="#" id="about" data-show-children>About</a>
+                <a href="/profile/" data-parent="about" class="child hidden">Profile</a>
+                <a href="/career/" data-parent="about" class="child hidden">Career</a>
+                <a href="/interests/" data-parent="about" class="child hidden">Interests</a>
+                <a href="#" id="work" data-show-children>Work</a>
+                <a href="/projects/" data-parent="work" class="child hidden">Projects</a>
+                <a href="/teaching/" data-parent="work" class="child hidden">Teaching</a>
+                <a href="/articles/" data-parent="work" class="child hidden">Articles</a>
+                
+                <a href="#" id="notebook" data-show-children>Notebook</a>
+                <a href="/arts/" data-parent="notebook" class="child hidden">Arts</a>
+                <a href="/culture/" data-parent="notebook" class="child hidden">Culture</a>
+                <a href="/design/" data-parent="notebook" class="child hidden">Design</a>
+                <a href="/dev/" data-parent="notebook" class="child hidden">Dev</a>
+                <a href="/maths/" data-parent="notebook" class="child hidden">Maths</a>
+                <a href="/reflect/" data-parent="notebook" class="child hidden">Reflect</a>
+                <a href="/travel/" data-parent="notebook" class="child hidden">Travel</a>
+                <a href="/misc/" data-parent="notebook" class="child hidden">Misc</a>
+                
+                <a href="#" id="shoutouts" data-show-children>Shoutout</a>
+                <a href="/mentors/" data-parent="shoutouts" class="child hidden">Mentors</a>
+                <a href="/peers/" data-parent="shoutouts" class="child hidden">Peers</a>
+                <a href="/students/" data-parent="shoutouts" class="child hidden">Students</a>
+                
+                <a href="/store/" id="store">Store</a>
+           </nav>
+            <article>
+                <section class="title">
+                    <h1>Sumit Meena</h1>
+                </section>
+                <section class="content">
+                    <p>Sumit Meena is an industrial designer whose extensive experience spans various facets of design, from conceptualization to execution. With an education that provided a strong foundation in design principles, he has accrued over seven years of experience, culminating in a role as an Assistant Professor at MITID, Pune. His teachings in Industrial and Interdisciplinary Design are both academically rigorous and infused with real-world applications.</p>
+<p>In the professional arena, Sumit founded Vulcan Design Studio, where his work—characterized by a unique blend of generative art and technology—has earned both national and international acclaim. His foray into industrial design consultancy with XYZ Designs - Chirmi Overseas and his significant contributions to The Placet have been marked by innovation and a problem-solving ethos.</p>
+<p>During his formative years, I have had the fortune to work with Sumit at Mathscapes, and I have witnessed his growth as a designer from then. Further, his practical experience as an Industrial Designer at Studio Ubbens in France and his industrious work on his thesis project with Philips highlights the breadth of his exposure. Sumit's diverse roles reveal his continuous pursuit of design knowledge, be it through teaching, creating, or consulting. His journey reflects a professional trajectory that is both inspiring and aspirational for upcoming designers.</p>
+<p><a href="https://www.linkedin.com/in/sumiitmeena/">LinkedIn</a></p>
+
+                </section>
+                <section class="footer">
+                    <p>06.11.2023</p>
+                </section>
+            </article>
+        </main>
+    </body>
+    <script>
+        // Function to update localStorage with the current state of expanded items
+        function updateExpandedState(parentId, isExpanded) {
+            let expandedItems = JSON.parse(localStorage.getItem('expandedItems')) || [];
+
+            if (isExpanded) {
+                // Add to expandedItems if not already present
+                if (!expandedItems.includes(parentId)) {
+                    expandedItems.push(parentId);
+                }
+            } else {
+                // Remove from expandedItems
+                expandedItems = expandedItems.filter(id => id !== parentId);
+            }
+
+            // Update localStorage with the modified array
+            localStorage.setItem('expandedItems', JSON.stringify(expandedItems));
+            console.log(`Updated expanded state for ${parentId}:`, expandedItems); // Debugging line
+        }
+
+        // Function to restore the expanded state from localStorage on page load
+        function restoreExpandedState() {
+            const expandedItems = JSON.parse(localStorage.getItem('expandedItems')) || [];
+
+            expandedItems.forEach(parentId => {
+                const parentLink = document.getElementById(parentId);
+                if (parentLink) {
+                    parentLink.classList.add('expanded');
+                    // Show all child items with the matching data-parent attribute
+                    document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                        child.classList.remove('hidden');
+                    });
+                }
+            });
+            console.log("Restored expanded state from localStorage:", expandedItems); // Debugging line
+        }
+
+        // Set up event listeners for each parent link
+        document.querySelectorAll('a[data-show-children]').forEach(parentLink => {
+            parentLink.addEventListener('click', function(event) {
+                // Prevent default action to avoid navigation
+                event.preventDefault();
+
+                // Toggle the expanded class on the parent
+                parentLink.classList.toggle('expanded');
+
+                // Get the ID of the parent to match with data-parent attributes
+                const parentId = parentLink.id;
+                const isExpanded = parentLink.classList.contains('expanded');
+
+                // Update localStorage based on the current expanded state
+                updateExpandedState(parentId, isExpanded);
+
+                // Toggle visibility for all child items with a matching data-parent
+                document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                    child.classList.toggle('hidden', !isExpanded);
+                });
+
+                // Navigate to the link after updating the state
+                window.location.href = parentLink.href;
+            });
+        });
+
+        // Restore the expanded state on page load
+        document.addEventListener('DOMContentLoaded', (event) => {
+            restoreExpandedState();
+        });
+    </script>
+</html>
