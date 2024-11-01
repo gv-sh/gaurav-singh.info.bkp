@@ -5,10 +5,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("CNAME");
 
-    eleventyConfig.addCollection("education", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["education/*.md"]);
-	});
-
     eleventyConfig.addCollection("exchanges", function (collectionApi) {
 		return collectionApi.getFilteredByGlob(["exchanges/*.md"]);
 	});
@@ -59,10 +55,6 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addCollection("travel", function (collectionApi) {
 		return collectionApi.getFilteredByGlob(["travel/*md"]);
-	});
-    
-    eleventyConfig.addCollection("worked-at", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["worked-at/*.md"]);
 	});
 
     eleventyConfig.addCollection("writing", function (collectionApi) {
