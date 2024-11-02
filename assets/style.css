@@ -189,11 +189,6 @@ p {
     color: #000;
 }
 
-.expanded::after {
-    content: "/";
-    opacity: 0.5;
-}
-
 .child {
     margin-left: 1em;
 }
@@ -216,11 +211,11 @@ hr {
 }
 
 aside a {
-    font-family: 'Fragment Mono', monospace;
-    letter-spacing: -0.04em;
-    text-transform: lowercase;
-    font-size: 0.9em;
-    line-height: 1.67;
+    /* font-family: 'Fragment Mono', monospace; */
+    /* letter-spacing: -0.04em; */
+    /* text-transform: lowercase; */
+    /* font-size: 0.9em; */
+    /* line-height: 1.67; */
 }
 
 .hamburger {
