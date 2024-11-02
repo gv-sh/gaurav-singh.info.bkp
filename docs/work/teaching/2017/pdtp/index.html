@@ -31,6 +31,7 @@
         <title>Programming as design tool for prototyping</title>
     </head>
     <body>
+        <div class="dim-overlay hidden"></div>
         <main>
             <aside>
                 <div class="hamburger" onclick="toggleMenu()">
@@ -149,6 +150,7 @@
 
         function toggleMenu() {
             document.querySelector('aside').classList.toggle('show-menu');
+            document.querySelector('.dim-overlay').classList.toggle('hidden');
         }
     </script>
 </html>

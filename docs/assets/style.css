@@ -97,7 +97,7 @@ main {
 aside {
     display: flex;
     flex-direction: column;
-    width: 240px;
+    width: 180px;
 }
 
 aside a {
@@ -245,9 +245,40 @@ aside a {
         gap: 20px;
     }
     aside {
-        width: 100%;
+        width:fit-content;
+        z-index: 0;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        transition: all 0.3s ease;
+    }
+    aside.show-menu {
+        width: 180px;
+        z-index: 10;
+        padding: 10px 15px;
+        background-color: white;
+        transition: all 0.3s ease;
     }
     aside.show-menu nav {
         display: block;
     }
+
+    article {
+        margin-top: 60px;
+    }
+}
+
+.dim-overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+    transition: all 0.3s ease;
+}
+
+.hidden {
+    display: none;
 }

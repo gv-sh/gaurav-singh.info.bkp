@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('pn/pn.woff2') format('woff2'),
-         url('pn/pn.woff') format('woff');
+    src: url('fonts/nova.woff2') format('woff2'),
+         url('fonts/nova.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

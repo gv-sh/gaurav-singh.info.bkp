@@ -31,6 +31,7 @@
         <title></title>
     </head>
     <body>
+        <div class="dim-overlay hidden"></div>
         <main>
             <aside>
                 <div class="hamburger" onclick="toggleMenu()">
@@ -502,6 +503,7 @@ Students setting up the room for their exhibition on the final day of 10 day...
 
         function toggleMenu() {
             document.querySelector('aside').classList.toggle('show-menu');
+            document.querySelector('.dim-overlay').classList.toggle('hidden');
         }
     </script>
 </html>
