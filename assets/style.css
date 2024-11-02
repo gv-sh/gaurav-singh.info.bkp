@@ -25,7 +25,7 @@ a:hover {
     transition: border-color 0.3s ease, color 0.3s ease;
 }
 
-nav a, nav a:hover {
+aside a, aside a:hover {
     border-bottom: 1px solid #fff;
 }
 
@@ -94,14 +94,18 @@ main {
     gap: 2em;
 }
 
-nav {
+aside {
     display: flex;
     flex-direction: column;
     width: 240px;
 }
 
-nav a {
+aside a {
     border-bottom: none !important;
+}
+
+aside nav a {
+    display: block;
 }
 
 article {
@@ -211,10 +215,39 @@ hr {
     line-height: 1.67;
 }
 
-nav a {
+aside a {
     font-family: 'Fragment Mono', monospace;
     letter-spacing: -0.04em;
     text-transform: lowercase;
     font-size: 0.9em;
     line-height: 1.67;
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.3em;
+}
+
+@media (max-width: 800px) {
+    .hamburger {
+        display: block;
+    }
+    aside nav {
+        display: none;
+    }
+    body {
+        margin: 20px;
+    }
+    main {
+        width: 100%;
+        margin: 0px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    aside {
+        width: 100%;
+    }
+    aside.show-menu nav {
+        display: block;
+    }
 }

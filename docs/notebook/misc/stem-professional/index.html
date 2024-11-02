@@ -30,7 +30,11 @@
     </head>
     <body>
         <main>
-            <nav>
+            <aside>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <i class="bi bi-list"></i>
+                </div>
+                <nav>
                 <a href="/" id="hello">Hello</a>
                 <a href="#" id="about" data-show-children>About</a>
                 <a href="/profile/" data-parent="about" class="child hidden">Profile</a>
@@ -57,7 +61,8 @@
                 <a href="/students/" data-parent="shoutouts" class="child hidden">Students</a>
                 
                 <a href="/store/" id="store">Store</a>
-           </nav>
+                </nav>
+           </aside>
             <article>
                 <section class="title">
                     <h1>STEM Professional Program</h1>
@@ -142,5 +147,9 @@
         document.addEventListener('DOMContentLoaded', (event) => {
             restoreExpandedState();
         });
+
+        function toggleMenu() {
+            document.querySelector('aside').classList.toggle('show-menu');
+        }
     </script>
 </html>
