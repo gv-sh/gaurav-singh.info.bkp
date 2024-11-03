@@ -2,6 +2,7 @@
 title: 2013 — First year at Srishti
 date: 2013-12-31
 layout: base.njk
+image: /assets/images/2013/old-campus.jpg
 --- 
 
 <img src="/assets/images/2013/old-campus.jpg" alt="Old Campus" />

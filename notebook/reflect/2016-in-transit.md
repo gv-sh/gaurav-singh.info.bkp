@@ -2,6 +2,7 @@
 title: 2016 — In transit
 date: 2016-12-31
 layout: base.njk
+image: /assets/images/2016/metro.jpg
 --- 
 
 <img src="/assets/images/2016/metro.jpg"/>

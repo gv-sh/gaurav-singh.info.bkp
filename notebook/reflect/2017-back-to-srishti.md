@@ -2,6 +2,7 @@
 title: 2017 — Back to Srishti
 date: 2017-12-31
 layout: base.njk
+image: /assets/images/2017/iitb.jpg
 --- 
 
 <img src="/assets/images/2017/iitb.jpg"/>

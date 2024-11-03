@@ -2,6 +2,7 @@
 title: 2022 — Leaving Srishti
 date: 2022-12-31
 layout: base.njk
+image: /assets/images/2022/workspace.jpg
 --- 
 
 <img src="/assets/images/2022/workspace.jpg"/>

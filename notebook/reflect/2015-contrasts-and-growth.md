@@ -2,6 +2,7 @@
 title: 2015 — Contrasts and growth
 date: 2015-12-31
 layout: base.njk
+image: /assets/images/2015/cpalle.jpg
 --- 
 
 <img src="/assets/images/2015/cpalle.jpg"/>

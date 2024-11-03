@@ -2,6 +2,7 @@
 title: 2014 — Competing interests
 date: 2014-12-31
 layout: base.njk
+image: /assets/images/2014/slabs.jpg
 --- 
 
 <img src="/assets/images/2014/slabs.jpg"/>

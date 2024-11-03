@@ -2,6 +2,7 @@
 title: 2019 — Beyond classrooms
 date: 2019-12-31
 layout: base.njk
+image: /assets/images/2019/future-making.jpg
 --- 
  
 <img src="/assets/images/2019/future-making.jpg"/>

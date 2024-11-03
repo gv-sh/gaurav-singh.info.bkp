@@ -2,6 +2,7 @@
 title: 2018 — Joys of teaching
 date: 2018-12-31
 layout: base.njk
+image: /assets/images/2018/ninasam.jpg
 --- 
 
 <img src="/assets/images/2018/ninasam.jpg"/>
