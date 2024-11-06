@@ -104,7 +104,6 @@ main {
     flex-direction: row;
     gap: 2em;
     background-color: #fff;
-    /* border: 1px solid #ddd; */
     padding: 20px;
 }
 
@@ -116,8 +115,7 @@ aside {
     top: 0px;
     left: 0px;
     background-color: white;
-    /* border: 1px solid #ddd; */
-    padding: 10px 15px;
+    padding: 25px 30px;
 }
 
 aside a {
@@ -182,7 +180,7 @@ p {
 .collection-item img {
     aspect-ratio: 6 / 4;
     object-fit: cover;
-    width: 100px;
+    width: 160px;
     display: block;
     background-color: #fff;
 }
@@ -230,17 +228,9 @@ hr {
     line-height: 1.67;
 }
 
-aside a {
-    /* font-family: 'Fragment Mono', monospace; */
-    /* letter-spacing: -0.04em; */
-    /* text-transform: lowercase; */
-    /* font-size: 0.9em; */
-    /* line-height: 1.67; */
-}
-
 .hamburger {
     display: none;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 @media (max-width: 800px) {
@@ -263,20 +253,20 @@ aside a {
         width:fit-content;
         z-index: 0;
         position: fixed;
-        top: 20px;
-        left: 20px;
+        top: 14px;
+        left: 14px;
         transition: all 0.3s ease;
     }
     aside.show-menu {
         width: 180px;
         z-index: 10;
-        padding: 10px 15px;
+        /* padding: 10px 15px; */
         background-color: white;
         transition: all 0.3s ease;
-        border: 1px solid #ddd;
     }
     aside.show-menu nav {
         display: block;
+        margin-top: 0.5em;
     }
 
     article {
