@@ -4,12 +4,16 @@
 
 body {
     font-family: 'Source Sans 3', sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 1.5;
     color: #000;
     background-color: #fff;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    background-color: #fff;
 }
 
 a {
@@ -85,7 +89,7 @@ input, textarea, select, button {
 
 img {
     max-width: 100%;
-    border-radius: 6px;
+    /* border-radius: 6px; */
 }
 
 .aspect-ratio-3-2 {
@@ -94,17 +98,26 @@ img {
 }
 
 main {
-    width: 700px;
+    width: 600px;
     margin: 100px auto;
     display: flex;
     flex-direction: row;
     gap: 2em;
+    background-color: #fff;
+    /* border: 1px solid #ddd; */
+    padding: 20px;
 }
 
 aside {
     display: flex;
     flex-direction: column;
     width: 180px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    /* border: 1px solid #ddd; */
+    padding: 10px 15px;
 }
 
 aside a {
