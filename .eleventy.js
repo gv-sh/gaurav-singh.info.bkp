@@ -5,6 +5,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("CNAME");
 
+    eleventyConfig.addPassthroughCopy({
+        "node_modules/echo-css/src/styles.css": "assets/styles.css"
+    });
+
     // Work - Projects, Teaching, Articles
     eleventyConfig.addCollection("articles", function (collectionApi) {
 		return collectionApi.getFilteredByGlob(["work/articles/*.md"]);
