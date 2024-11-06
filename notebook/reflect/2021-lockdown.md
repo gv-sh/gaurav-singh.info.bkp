@@ -5,7 +5,7 @@ layout: base.njk
 image: /assets/images/2021/lockdown.jpg
 --- 
 
-<img src="/assets/images/2021/lockdown.jpg"/>
+<img class="aspect-ratio-3-2" src="/assets/images/2021/lockdown.jpg"/>
 
 _Cover_
 

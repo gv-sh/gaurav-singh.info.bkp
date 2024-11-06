@@ -5,7 +5,7 @@ layout: base.njk
 image: /assets/images/2019/future-making.jpg
 --- 
  
-<img src="/assets/images/2019/future-making.jpg"/>
+<img class="aspect-ratio-3-2" src="/assets/images/2019/future-making.jpg"/>
 
 _Students and I putting together an anamorphic invitation in N2 campus to the upcoming work (then) Making with Algorithms at Srishti's N5 campus. In frame: Arsh, Raashi, Abhijit, Ananya, Janaki, Vanshika and me_
 

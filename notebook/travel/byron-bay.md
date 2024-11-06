@@ -5,7 +5,8 @@ layout: base.njk
 image: /assets/images/2024/IMG_0841.jpeg
 --- 
 
-![Byron Bay Beach](/assets/images/2024/IMG_0841.jpeg)
+<img class="aspect-ratio-3-2" src="/assets/images/2024/IMG_0841.jpeg" alt="Byron Bay Beach" />
+
 _Walking towards the beach from Byron Bay's lighthouse_
 
 January 2024. The rain had already soaked through my clothes as I trudged to Arpita’s place in the early morning, probably around 7am. The trams weren't operating from the usual 5am due to public holidays if I remember correctly. Also, it wasn’t just the rain; my mind was drenched too, heavy with thoughts I couldn’t shake. This trip to Byron Bay with friends — Arpita, Prathap and Aditya — was meant to be a break, a chance to breathe outside of the Gold Coast bubble. But, the weight inside doesn’t always lift when we change our surroundings.
@@ -14,17 +15,20 @@ We met at the decided location, near the GCUH station and immediately hopped on 
 
 We booked a cab instead, cheaper by the head and faster to boot. I sat quietly as we left the city behind, the landscape shifting from urban sprawl to the expansive, empty green spaces that stretched for miles. It was the first time I’d really seen this part of Australia, having spent most of my time within the familiar bounds of the Gold Coast. I stared out the window, the rolling hills and endless fields acting like a mirror, similar to the quiet emptiness I felt inside. I don’t remember seeing a single person, just cars on the highway, and I found that strange, almost eerie — beautiful, but lonely.
 
-![Cape Byron Lighthouse](/assets/images/2024/IMG_0871.jpeg)
+<img class="aspect-ratio-3-2" src="/assets/images/2024/IMG_0871.jpeg" alt="Cape Byron Lighthouse" />
+
 _Cape Byron Lighthouse_
 
 When we finally arrived at Byron Bay, the sun had broken through the clouds. It wasn’t the unrelenting brightness of a summer day, though; the sky was a patchwork of blue and gray, a strange in-between that suited my mood. We made our way to the Cape Byron Lighthouse, the gleaming white tower standing tall at the edge of the cliffs, where the land meets the Pacific. Inside, there was a small museum — an understated space that told the story of the lighthouse and the mariners it had once guided through dangerous waters. Lighthouses are timeless, and in that moment, I felt a strange kinship with it. Just as the lighthouse stands watch over the endless sea, I felt like I was standing on the edge of something vast — my thoughts rolling in and out like the waves below, searching for direction. But like the mariners of old, it wasn’t the land or sea that felt treacherous; it was everything else swirling in my head.
 
-![Byron Bay Beach](/assets/images/2024/IMG_0826.jpeg)
+<img class="aspect-ratio-3-2" src="/assets/images/2024/IMG_0826.jpeg" alt="Getting down from the lighthouse" />
+
 _Getting down from the lighthouse_
 
 We spent the next few hours on the beach, which remains the clearest memory from the trip. Time slipped away as we sat there, watching the ocean, occasionally talking, mostly just being. There was something about the waves — how they moved with purpose, always in motion, always coming back. The beach was our sanctuary, a temporary escape from everything else. For a while, I felt present, untethered from the noise in my mind, even if just for a moment. Then the rain came back, heavier this time, pushing us back to reality.
 
-![Byron Bay Beach](/assets/images/2024/IMG_0851.jpeg)
+<img class="aspect-ratio-3-2" src="/assets/images/2024/IMG_0851.jpeg" alt="Arpita sitting by the rocky shore" />
+
 _Arpita sitting by the rocky shore_
 
 Back at the visitor information center, soaked through again, we scrambled to figure out how we were getting back to the Gold Coast. There was no transport in sight, and the day had started to fray at the edges. No buses, no public options, nothing but us and the rain. Eventually, we got creative — booking a cab to the nearest Woolworths and piecing together our return journey with whatever options we could find. It wasn’t ideal, but it worked, and somehow, that made the day feel complete. A trip rarely goes as planned, and this one was no exception.

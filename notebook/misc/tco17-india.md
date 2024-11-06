@@ -4,7 +4,7 @@ date: 2017-09-02
 layout: base.njk
 ---
 
-<img src="/assets/images/2017/workshop.jpg" />
+<img class="aspect-ratio-3-2" src="/assets/images/2017/workshop.jpg" />
 
 _Topcoder design workshop at Srishti Institute of Art, Design & Technology, Bangalore on 17 Aug 2017_
 
@@ -12,23 +12,23 @@ Topcoder has arrived in the city for their India Regional event and their inaugu
 
 Adam provided feedback for all the RUX submissions, which will help students to appreciate the different perspectives and to articulate their decision-making while designing. In a nutshell — an engaging workshop for all of us. Adam and Harshit also invited everyone to take part in the regional event.
 
-<img src="/assets/images/2017/image7.jpg" />
+<img class="aspect-ratio-3-2" src="/assets/images/2017/image7.jpg" />
 
 _TCO17 India venue: CoWrks space at RMZ EcoWorld, Bangalore_
 
 Afterward, we attended the Regional Event held at the CoWrks space at RMZ EcoWorld, where over 200 Topcoder members from across the country and beyond gathered in the vast space for a thrilling experience. I was fortunate enough to meet some of the prolific members of Topcoder Studio for the first time, including ravijune, systic, teevics, rajeshrathod, talesforce, and many others.
 
-<img src="/assets/images/2017/image3.jpg" />
+<img class="aspect-ratio-3-2" src="/assets/images/2017/image3.jpg" />
 
 _Harshit, who opened the tournament, assisting participants_
 
 The event started with a talk by Adam on Cognitive Design, followed by brief presentations from Digital Ocean and Amazon about their products. The challenges were then announced, and I was excited to meet my fellow studio members and compete in the RUX challenge, which focused on future infotainment systems and cognitive design. The challenge lasted for five hours.
 
-<img src="/assets/images/2017/image12.jpg" />
+<img class="aspect-ratio-3-2" src="/assets/images/2017/image12.jpg" />
 
 _SRM winner: jki14_
 
-<img src="/assets/images/2017/award.jpg" />
+<img class="aspect-ratio-3-2" src="/assets/images/2017/award.jpg" />
 
 _I was fortunate enough to win the TCO17 India regionals - Design Challenge and receive the Topcoder brackets as an award._
 
@@ -42,7 +42,7 @@ Congratulations to all the winners across tracks.
 
 TCC: Topcoder Collegiate Championship
 
-<img src="/assets/images/2017/group.jpg" />
+<img class="aspect-ratio-3-2" src="/assets/images/2017/group.jpg" />
 
 _TCO2017 India regionals group photo._
 

@@ -5,7 +5,7 @@ layout: base.njk
 image: /assets/images/2017/iitb.jpg
 --- 
 
-<img src="/assets/images/2017/iitb.jpg"/>
+<img class="aspect-ratio-3-2" src="/assets/images/2017/iitb.jpg"/>
 
 _ReRide demo at display at Victor Menezes Convention Centre, IIT Bombay. In frame: Mangesh Ashrit and Somya Saxena, ReRide team members._
 

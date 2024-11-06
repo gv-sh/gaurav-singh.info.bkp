@@ -5,7 +5,7 @@ layout: base.njk
 image: /assets/images/2018/ninasam.jpg
 --- 
 
-<img src="/assets/images/2018/ninasam.jpg"/>
+<img class="aspect-ratio-3-2" src="/assets/images/2018/ninasam.jpg"/>
 
 _A monkey family opposite the Ninasam theatre during Shimoga expedition_
 

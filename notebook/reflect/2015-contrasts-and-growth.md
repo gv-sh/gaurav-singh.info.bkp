@@ -5,7 +5,7 @@ layout: base.njk
 image: /assets/images/2015/cpalle.jpg
 --- 
 
-<img src="/assets/images/2015/cpalle.jpg"/>
+<img class="aspect-ratio-3-2" src="/assets/images/2015/cpalle.jpg"/>
 
 _The village of Chintalayyagarepalle_
 

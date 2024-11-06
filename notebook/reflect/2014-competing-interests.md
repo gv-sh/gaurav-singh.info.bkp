@@ -5,7 +5,7 @@ layout: base.njk
 image: /assets/images/2014/slabs.jpg
 --- 
 
-<img src="/assets/images/2014/slabs.jpg"/>
+<img class="aspect-ratio-3-2" src="/assets/images/2014/slabs.jpg"/>
 
 _S.labs at N2 campus, Srishti_
 

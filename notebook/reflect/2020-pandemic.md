@@ -5,7 +5,7 @@ layout: base.njk
 image: /assets/images/2020/407.jpg
 --- 
 
-<img src="/assets/images/2020/407.jpg"/>
+<img class="aspect-ratio-3-2" src="/assets/images/2020/407.jpg"/>
 
 _Room 407 at Srishti's N5 campus. Evening before their first seminar._
 

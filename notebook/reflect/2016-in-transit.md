@@ -5,7 +5,7 @@ layout: base.njk
 image: /assets/images/2016/metro.jpg
 --- 
 
-<img src="/assets/images/2016/metro.jpg"/>
+<img class="aspect-ratio-3-2" src="/assets/images/2016/metro.jpg"/>
 
 _By the track at Cubbon park metro. Painting work was in progress on the side, power was disabled of course._
 

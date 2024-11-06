@@ -5,7 +5,7 @@ layout: base.njk
 image: /assets/images/2013/old-campus.jpg
 --- 
 
-<img src="/assets/images/2013/old-campus.jpg" alt="Old Campus" />
+<img class="aspect-ratio-3-2" src="/assets/images/2013/old-campus.jpg" alt="Old Campus" />
 
 _After the first day at Srishti's old campus_
  

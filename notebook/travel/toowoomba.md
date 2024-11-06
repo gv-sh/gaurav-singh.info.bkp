@@ -5,16 +5,20 @@ layout: base.njk
 image: /assets/images/2024/toowoomba/flowers-1.jpeg
 --- 
 
-![A view from Mt Lofty Range from Toowoomba](/assets/images/2024/toowoomba/mt-lofty.jpeg)
+<img class="aspect-ratio-3-2" src="/assets/images/2024/toowoomba/mt-lofty.jpeg" alt="A view from Mt Lofty Range from Toowoomba" />
+
 _A view from Mt Lofty Range from Toowoomba_
 
-![Picnic point lookout](/assets/images/2024/toowoomba/picnic-pt-lookout.jpeg)
+<img class="aspect-ratio-3-2" src="/assets/images/2024/toowoomba/picnic-pt-lookout.jpeg" alt="Picnic point lookout" />
+
 _Picnic point lookout_
 
-![Picnic point](/assets/images/2024/toowoomba/picnic-pt.jpeg)
+<img class="aspect-ratio-3-2" src="/assets/images/2024/toowoomba/picnic-pt.jpeg" alt="Picnic point" />
+
 _Picnic point_
 
-![Rangeville](/assets/images/2024/toowoomba/rangeville.jpeg)
+<img class="aspect-ratio-3-2" src="/assets/images/2024/toowoomba/rangeville.jpeg" alt="Rangeville" />
+
 _Rangeville_
 
 <div class="grid-3">

@@ -5,7 +5,7 @@ layout: base.njk
 image: /assets/images/2022/workspace.jpg
 --- 
 
-<img src="/assets/images/2022/workspace.jpg"/>
+<img class="aspect-ratio-3-2" src="/assets/images/2022/workspace.jpg"/>
 
 _My workspace at Srishti's atelier campus_
 

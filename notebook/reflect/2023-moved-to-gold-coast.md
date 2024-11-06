@@ -10,10 +10,10 @@ image: /assets/images/2023/IMG_2193.jpeg
 Not long after, I encountered a major setback. My application for a PhD was rejected because Srishti’s ADP program wasn’t recognized, despite being equivalent to a master’s degree with a thesis. The lack of a GPA system turned out to be a bigger obstacle than I expected. This rejection wasn’t entirely surprising, but it was still a tough moment, as it highlighted the barriers that come with non-traditional education paths. Then, in November 2022, Simba, our family pet, was involved in a serious accident. His recovery became the focus for our family, and I had to put my academic goals on hold for a while. During this time, I was forced to slow down and reflect, feeling unsure about what the future held as my plans seemed to stall.
 
 <div class="grid-2">
-    <img src="/assets/images/2023/IMG_2193.jpeg" alt="Image 6"/>
-    <img src="/assets/images/2023/IMG_2277.jpeg" alt="Image 7"/>
-    <img src="/assets/images/2023/IMG_0010.jpeg" alt="Image 8"/>
-    <img src="/assets/images/2023/IMG_0017.jpeg" alt="Image 9"/>
+    <img class="aspect-ratio-3-2" src="/assets/images/2023/IMG_2193.jpeg" alt="Image 6"/>
+    <img class="aspect-ratio-3-2" src="/assets/images/2023/IMG_2277.jpeg" alt="Image 7"/>
+    <img class="aspect-ratio-3-2" src="/assets/images/2023/IMG_0010.jpeg" alt="Image 8"/>
+    <img class="aspect-ratio-3-2" src="/assets/images/2023/IMG_0017.jpeg" alt="Image 9"/>
 </div>
 
 _Clockwise L to R: Outside Australia Fair, Southport; The road crossing to Broadwater Parklands; Sea urchins at the Spit; The Spit, Gold Coast_
@@ -23,10 +23,10 @@ However, 2023 also brought a renewed sense of purpose. I decided to focus on pro
 As the year went on, I made a key decision: to pursue a master’s degree in Australia. This decision was driven by both personal and academic factors and felt like an important step in opening up new opportunities. Financial challenges followed, including unsuccessful attempts to secure education loans, but with my family’s support, I was able to gather the necessary funds for my visa application. Moving to Australia marked the start of a new chapter. The first few months at Griffith University were a combination of orientations, coursework, and building new social and professional connections. Immersing myself in the IT program, I began to explore new research areas, excited for what lay ahead.
 
 <div class="grid-2">
-    <img src="/assets/images/2023/IMG_0215.jpeg" alt="Image 2"/>
-    <img src="/assets/images/2023/IMG_0703.jpeg" alt="Image 3"/>
-    <img src="/assets/images/2023/IMG_0710.jpeg" alt="Image 4"/>
-    <img src="/assets/images/2023/IMG_0718.jpeg" alt="Image 5"/>
+    <img class="aspect-ratio-3-2" src="/assets/images/2023/IMG_0215.jpeg" alt="Image 2"/>
+    <img class="aspect-ratio-3-2" src="/assets/images/2023/IMG_0703.jpeg" alt="Image 3"/>
+    <img class="aspect-ratio-3-2" src="/assets/images/2023/IMG_0710.jpeg" alt="Image 4"/>
+    <img class="aspect-ratio-3-2" src="/assets/images/2023/IMG_0718.jpeg" alt="Image 5"/>
 </div>
 
 _Clockwise L to R: View from Broadwater Parklands in the night; A bucket full of fishes caught by someone next to us at Broadwater Parklands; A view from the Broadwater Parklands; An unknown celebration at Southport_
