@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KEN47XT3N8"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KEN47XT3N8');
+        </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+                onload="renderMathInElement(document.body, {
+                            delimiters: [
+                                {left: '$$', right: '$$', display: true},
+                                {left: '$', right: '$', display: false},
+                            ],
+                            throwOnError : false
+                        });">
+        </script>
+        <title>STEM Professional Program</title>
+    </head>
+    <body>
+    <aside>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <a class="menu-button" href="#">Menu</a>
+                </div>
+                <nav>
+                    <a href="/" id="hello">Hello</a>
+                    <a href="/bio/" id="bio">Bio</a>
+                    <a href="#" id="work" data-show-children>Work</a>
+                    <a href="/projects/" data-parent="work" class="child hidden">Projects</a>
+                    <a href="/classroom/" data-parent="work" class="child hidden">Classroom</a>
+                    <a href="/articles/" data-parent="work" class="child hidden">Articles</a>
+                    
+                    <a href="#" id="notes" data-show-children>Notes</a>
+                    <a href="/design/" data-parent="notes" class="child hidden">Design</a>
+                    <a href="/maths/" data-parent="notes" class="child hidden">Maths</a>
+                    <a href="/reflect/" data-parent="notes" class="child hidden">Reflect</a>
+                    <a href="/travel/" data-parent="notes" class="child hidden">Travel</a>
+                    <a href="/misc/" data-parent="notes" class="child hidden">Misc</a>
+
+                    <!-- <a href="#" id="shoutouts" data-show-children>Shoutout</a>
+                    <a href="/mentors/" data-parent="shoutouts" class="child hidden">Mentors</a>
+                    <a href="/peers/" data-parent="shoutouts" class="child hidden">Peers</a>
+                    <a href="/students/" data-parent="shoutouts" class="child hidden">Students</a> -->
+
+                    <a href="#" id="archived" data-show-children>Archived</a>
+                    <a href="/archived-projects/" data-parent="archived" class="child hidden">Projects</a>
+                    <a href="/archived-notes/" data-parent="archived" class="child hidden">Notes</a>
+                    
+                    <a href="/store/" id="store">Store</a>
+            </nav>
+        </aside>
+        <main>
+            <article>
+                <section class="title">
+                    <h1>STEM Professional Program</h1>
+                </section>
+                <section class="content">
+                    <p><img src="/assets/images/2024/stem-award.jpg" alt="Stem Professionals Gold Achievement 2024"></p>
+<p>This year, the STEM Professional Program at Griffith University, designed to guide participants in developing professional artefacts and planning their trajectory as STEM professionals in Australia, unexpectedly gave me the opportunity to rethink my approach to writing. While the program centered on broader aspects of professional development, the exercises encouraged me to view writing as a tool for articulating professional identity with precision and nuance. Through these exercises, my perspective on writing has shifted; each refinement deepens both intellectual clarity and self-representation.</p>
+<p>Another key takeaway was the program’s emphasis on how small, incremental gains, when consistently applied, lead to significant professional growth. The well-organized structure and resources allowed for gradual improvements to accumulate into a cohesive body of work, highlighting the value of sustained effort. This systemic approach mirrored the broader philosophy of lifelong learning, where each minor adjustment contributes to deeper professional evolution.</p>
+<p>The STEM Professional Gold Achievement 2024, presented by <a href="https://experts.griffith.edu.au/9237-rene-hexel">Dr.Rene Hexel</a>, Dean Learning &amp; Teaching, Griffith Sciences at Griffith University, reflects my steady progression shaped by the program. These accumulated insights continue to influence my work, shaping how I approach my professional identity and the ways I represent it in varied contexts. Finally, I would like to extend my heartfelt thanks to <a href="https://www.linkedin.com/in/gaylebrent/">Gayle Brent</a>, <a href="https://www.linkedin.com/in/jacqueline-wilkinson-ab36a2a7/">Jacqueline Wilkinson</a>, Carmel James, and the Student Impact Awards Team for their work in helping students like myself grow and succeed.</p>
+
+                </section>
+                <section class="footer">
+                    <p>29.09.2024</p>
+                </section>
+            </article>
+        </main>
+    </body>
+    <script>
+        // Function to update localStorage with the current state of expanded items
+        function updateExpandedState(parentId, isExpanded) {
+            let expandedItems = JSON.parse(localStorage.getItem('expandedItems')) || [];
+
+            if (isExpanded) {
+                // Add to expandedItems if not already present
+                if (!expandedItems.includes(parentId)) {
+                    expandedItems.push(parentId);
+                }
+            } else {
+                // Remove from expandedItems
+                expandedItems = expandedItems.filter(id => id !== parentId);
+            }
+
+            // Update localStorage with the modified array
+            localStorage.setItem('expandedItems', JSON.stringify(expandedItems));
+            console.log(`Updated expanded state for ${parentId}:`, expandedItems); // Debugging line
+        }
+
+        // Function to restore the expanded state from localStorage on page load
+        function restoreExpandedState() {
+            const expandedItems = JSON.parse(localStorage.getItem('expandedItems')) || [];
+
+            expandedItems.forEach(parentId => {
+                const parentLink = document.getElementById(parentId);
+                if (parentLink) {
+                    parentLink.classList.add('expanded');
+                    // Show all child items with the matching data-parent attribute
+                    document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                        child.classList.remove('hidden');
+                    });
+                }
+            });
+            console.log("Restored expanded state from localStorage:", expandedItems); // Debugging line
+        }
+
+        // Set up event listeners for each parent link
+        document.querySelectorAll('a[data-show-children]').forEach(parentLink => {
+            parentLink.addEventListener('click', function(event) {
+                // Prevent default action to avoid navigation
+                event.preventDefault();
+
+                // Toggle the expanded class on the parent
+                parentLink.classList.toggle('expanded');
+
+                // Get the ID of the parent to match with data-parent attributes
+                const parentId = parentLink.id;
+                const isExpanded = parentLink.classList.contains('expanded');
+
+                // Update localStorage based on the current expanded state
+                updateExpandedState(parentId, isExpanded);
+
+                // Toggle visibility for all child items with a matching data-parent
+                document.querySelectorAll(`[data-parent="${parentId}"]`).forEach(child => {
+                    child.classList.toggle('hidden', !isExpanded);
+                });
+
+                // Navigate to the link after updating the state
+                window.location.href = parentLink.href;
+            });
+        });
+
+        // Restore the expanded state on page load
+        document.addEventListener('DOMContentLoaded', (event) => {
+            restoreExpandedState();
+        });
+
+        function toggleMenu() {
+            document.querySelector('aside').classList.toggle('show-menu');
+        }
+    </script>
+</html>

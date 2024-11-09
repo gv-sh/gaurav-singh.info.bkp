@@ -9,50 +9,50 @@ module.exports = function (eleventyConfig) {
         "node_modules/echo-css/src/styles.css": "assets/styles.css"
     });
 
-    // Work - Projects, Teaching, Articles
+    // Work - Projects, Classroom, Articles
     eleventyConfig.addCollection("articles", function (collectionApi) {
 		return collectionApi.getFilteredByGlob(["work/articles/*.md"]);
 	});
 
-    eleventyConfig.addCollection("teaching", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["work/teaching/**/*.md"]);
+    eleventyConfig.addCollection("classroom", function (collectionApi) {
+		return collectionApi.getFilteredByGlob(["work/classroom/**/*.md"]);
 	});
 
     eleventyConfig.addCollection("projects", function (collectionApi) {
 		return collectionApi.getFilteredByGlob(["work/projects/*.md"]);
 	});
 
-    // Notebook - Arts, Culture, Design, Dev, Maths, Reflect, Travel, Misc
+    // Notes - Arts, Culture, Design, Dev, Maths, Reflect, Travel, Misc
     eleventyConfig.addCollection("arts", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["notebook/arts/*.md"]);
+		return collectionApi.getFilteredByGlob(["notes/arts/*.md"]);
 	});
 
     eleventyConfig.addCollection("culture", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["notebook/culture/*.md"]);
+		return collectionApi.getFilteredByGlob(["notes/culture/*.md"]);
 	});
 
     eleventyConfig.addCollection("design", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["notebook/design/*.md"]);
+		return collectionApi.getFilteredByGlob(["notes/design/*.md"]);
 	});
 
     eleventyConfig.addCollection("dev", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["notebook/dev/*.md"]);
+		return collectionApi.getFilteredByGlob(["notes/dev/*.md"]);
 	});
 
     eleventyConfig.addCollection("maths", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["notebook/maths/*.md"]);
+		return collectionApi.getFilteredByGlob(["notes/maths/*.md"]);
 	});
 
     eleventyConfig.addCollection("misc", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["notebook/misc/*.md"]);
+		return collectionApi.getFilteredByGlob(["notes/misc/*.md"]);
 	});
 
     eleventyConfig.addCollection("reflect", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["notebook/reflect/*.md"]);
+		return collectionApi.getFilteredByGlob(["notes/reflect/*.md"]);
 	});
 
     eleventyConfig.addCollection("travel", function (collectionApi) {
-		return collectionApi.getFilteredByGlob(["notebook/travel/*.md"]);
+		return collectionApi.getFilteredByGlob(["notes/travel/*.md"]);
 	});
     
     // Shoutouts
@@ -68,6 +68,16 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("students", function (collectionApi) {
 		return collectionApi.getFilteredByGlob(["shoutouts/students/*.md"]);
 	});
+
+    // Archived 
+
+    eleventyConfig.addCollection("archived-projects", function (collectionApi) {
+		return collectionApi.getFilteredByGlob(["archived/projects/*.md"]);
+	});
+
+    eleventyConfig.addCollection("archived-notes", function (collectionApi) {
+        return collectionApi.getFilteredByGlob(["archived/notes/*.md"]);
+    });
 
     // Filters
 
