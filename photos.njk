@@ -1,0 +1,34 @@
+---
+layout: base.njk
+title: Photos
+permalink: /photos/
+---
+<div class="photo-grid">
+    <img src="/assets/images/2013/wip3.jpg" alt="Description of photo 1">
+    <img src="/assets/images/2013/wip2.jpg" alt="Description of photo 1">
+    <img src="/assets/images/2013/wip.jpg" alt="Description of photo 1">
+    <img src="/assets/images/2013/vitm.jpg" alt="Description of photo 1">
+    <img src="/assets/images/2013/scsa.jpg" alt="Description of photo 1">
+    <img src="/assets/images/2013/problem-space.jpg" alt="Description of photo 3">
+    <img src="/assets/images/2013/paper-model.jpg" alt="Description of photo 4">
+    <img src="/assets/images/2013/old-campus.jpg" alt="Description of photo 5">
+    <img src="/assets/images/2013/joanna.jpg" alt="Description of photo 6">
+    <img src="/assets/images/2012/multimarker.jpg" alt="Description of photo 3">
+    <img src="/assets/images/2011/shannon.jpg" alt="Description of photo 1">
+    <img src="/assets/images/2011/harr.jpg" alt="Description of photo 2">
+</div>
+
+<style>
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-flow: row;
+        gap: 10px;
+    }
+    .photo-grid img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+</style>
