@@ -2,6 +2,7 @@
 title: STEM Professional Program
 date: 2024-09-29
 layout: base.njk
+image: /assets/images/2024/stem-award.jpg
 --- 
 
 ![Stem Professionals Gold Achievement 2024](/assets/images/2024/stem-award.jpg)

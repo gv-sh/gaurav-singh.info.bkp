@@ -2,9 +2,10 @@
 title: Rendering a hypercube
 date: 2023-09-15
 layout: base.njk
+image: /assets/images/2022/sketch_hypercube.gif
 --- 
 
-![Hypercube](/assets/sketches/sketch_hypercube.gif)
+![Hypercube](/assets/images/2022/sketch_hypercube.gif)
 _Hypercube_
 
 The hypercube, or more commonly known as the tesseract, is a geometry that exists in four-dimensional space. If you've ever been entranced by the tesseract scene in the movie "Interstellar", you've already had a cinematic glimpse of this concept. But how do we visualize a 4D object in our 3D world and then render it on a 2D screen?
