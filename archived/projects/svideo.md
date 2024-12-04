@@ -2,7 +2,6 @@
 title: SVideo
 date: 2020-04-03
 layout: base.njk
-image: /assets/images/2019/reride.jpg
 --- 
 
 <img src="/assets/images/2019/reride.jpg"/>
